@@ -39,6 +39,7 @@ width:100%;
 height:700px;
 }
 #news{
+background:url('../images/news_bg.png') 50% 0px repeat-y;
 height:700px;
 margin: 0;
 padding: 0;
