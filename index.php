@@ -65,11 +65,11 @@
 						<div class="grid xl">
 							<div class="promo_panel">
 									<div class="front">
-										<img src="images/Home_TableMtn_Large.jpg" alt="" /> 
+										<img src="images/ConanThumb.jpg" alt="" /> 
 									</div>
 									<div class="back">
 										<h4>Work</h4>
-										<p><a data-videoid="34640883" data-videodesc="" data-videotitle='Table Mountain Casino - 25th Anniversary' href="http://vimeo.com/34640883" class="video">Table Mountain Casino - 25th Anniversary</a></p>
+										<p><a data-videoid="36418245" data-videodesc="Conan O'Brien's team at TBS turned to Artifact to premier his new Team Coco App, bringing some retro-futuristic fun to all the glorious benefits of the application's features for your tablet or smart phone. Turner's Sponsor Shop gave us yet another excuse to have way too much fun at work." data-videotitle='TBS - Team Coco Tablet App' href="http://vimeo.com/36418245" class="video">TBS - Team Coco Tablet App</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
@@ -162,7 +162,38 @@
 			<div class="panels flexslider">
 				<ul class="slides">
 					<li class="panel">
-						<div class="news_item clearfix">
+						<div class="news_item clearfix" id="auto-show">
+						<div class="news_image"><span class="img_src" src="images/Kia-Trackster-Concept-04.jpg" alt="" border="0" ></span></div>
+						<div class="news_desc">
+							<h4>Chicago Auto Show Debut <span>February 20, 2012</span></h4>
+							<p>Kia's high performance concept car, the Track'ster, was all the rage at the Chicago Auto Show last week.</p>	
+							<p class="more"><a href="">More ...</a>		
+						</div>	
+						<div class="news_content">
+							<div class="article">
+								<h2>Chicago Auto Show Debut</h2>
+								<p>Kia's high performance concept car, the Track'ster, was all the rage at the Chicago Auto Show last week. Artifact worked with GO! Productions to highlight the car's features in a photo-real CGI model on a 70 foot x 10 foot screen for the show. Check out the presentation of the Track'ster below...more coming soon!</p>
+								<p><iframe data-src="http://player.vimeo.com/video/36867512?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>							
+							</div>
+						</div>						
+					</div>
+						<div class="news_item clearfix" id="job-posting">
+							<div class="news_image"><span class="img_src" src="images/NewsThumb_JobPosting.png" alt="" border="0" ></span></div>
+							<div class="news_desc">
+								<h4>Job Posting: Office Coordinator <span>January 18, 2012</span></h4>
+								<p>The Office Coordinator's primary focus is to assist the General Manager and Office Manager with accounting, administrative and organizational tasks.</p>	
+								<p class="more"><a href="">More ...</a>		
+							</div>	
+							<div class="news_content">
+								<div class="article">
+									<h2>Job Posting: Office Coordinator</h2>
+									<p>About the position:</p>
+									<p>The Office Coordinator's primary focus is to assist the General Manager and Office Manager with accounting, administrative and organizational tasks. The most important attribute of the Office Coordinator is that he/she is extremely organized. He/she must also have a pleasant phone demeanor and good people skills. He/she must exhibit a strong ability to prioritize and perform his/her tasks proactively. The first three months of employment are considered to be on a trial basis. Contact <a href="mailto:amanda@artifactdesign.com">amanda@artifactdesign.com</a>. </p>
+									<p><a href="Artifact_Office_Coordinator_job.pdf" target="_blank">Full description (PDF)</a></p>																	
+								</div>
+							</div>						
+						</div>
+						<div class="news_item clearfix" id="update-from-road">
 							<div class="news_image"><span class="img_src" src="images/NewsThumb_FromTheRoad.jpg" alt="" border="0" ></span></div>
 							<div class="news_desc">
 								<h4>Update from the road <span>December 22, 2011</span></h4>
@@ -177,7 +208,12 @@
 								</div>
 							</div>						
 						</div>
-						<div class="news_item clearfix">
+						
+						
+					</li>
+				
+					<li class="panel">
+						<div class="news_item clearfix" id="casino-night">
 						<div class="news_image"><span class="img_src" src="images/news_4.jpg" alt="" border="0" ></span></div>
 						<div class="news_desc">
 							<h4>Casino Night <span>November 30, 2011</span></h4>
@@ -192,7 +228,7 @@
 							</div>
 						</div>						
 					</div>
-						<div class="news_item clearfix">
+						<div class="news_item clearfix" id="we-are-moving">
 						<div class="news_image"><span class="img_src" src="images/news_1.jpg" alt="" border="0" ></span></div>
 						<div class="news_desc">
 							<h4>We're Moving! <span>November 15, 2011</span></h4>
@@ -207,10 +243,7 @@
 							</div>
 						</div>				
 					</div>
-					</li>
-				
-					<li class="panel">
-						<div class="news_item clearfix">
+						<div class="news_item clearfix" id="halloween-contest">
 							<div class="news_image"><span class="img_src" src="images/news_2.jpg" alt="" border="0" ></span></div>
 							<div class="news_desc">
 								<h4>Halloween Costume Contest <span>October 31, 2011</span></h4>
@@ -225,7 +258,12 @@
 								</div>
 							</div>					
 						</div>
-						<div class="news_item clearfix">
+						
+						
+					</li>
+				
+					<li class="panel">
+						<div class="news_item clearfix" id="leaving-la-floresta">
 							<div class="news_image"><span class="img_src" src="images/news_3.jpg" alt="" border="0" ></span></div>
 							<div class="news_desc">
 								<h4>Leaving La Floresta <span>September 17, 2011</span></h4>
@@ -241,7 +279,7 @@
 								</div>
 							</div>						
 						</div>
-						<div class="news_item clearfix">
+						<div class="news_item clearfix" id="green-hornet">
 							<div class="news_image"><span class="img_src" src="images/news_5.jpg" alt="" border="0" ></span></div>
 							<div class="news_desc">
 								<h4>Green Hornet Wins TELLY Awards <span>July 8, 2011</span></h4>
@@ -256,10 +294,7 @@
 								</div>
 							</div>				
 						</div>
-					</li>
-				
-					<li class="panel">
-						<div class="news_item clearfix">
+						<div class="news_item clearfix" id="dream-park">
 							<div class="news_image"><span class="img_src" src="images/news_6.jpg" alt="" border="0" ></span></div>
 							<div class="news_desc">
 								<h4>Pat McNeely Designs Dream Park <span>June 14, 2011</span></h4>
@@ -279,37 +314,7 @@
 								</div>
 							</div>				
 						</div>
-						<div class="news_item clearfix">
-							<div class="news_image"><span class="img_src" src="images/news_7.jpg" alt="" border="0" ></span></div>
-							<div class="news_desc">
-								<h4>Our First Stereoscopic 3D <span>May 19, 2011</span></h4>
-								<p>You may remember that our senior-level CGI artists trained at Sony's 3D Technology Center in Culver City, CA this spring to learn how to create Stereoscopic 3D work from the pros.</p>	
-								<p class="more"><a href="">More ...</a>	
-							</div>	
-							<div class="news_content">
-								<div class="article">
-									<h2>Artifact's First Stereoscopic 3D</h2>
-									<p>You may remember that our senior-level CGI artists trained at Sony's 3D Technology Center in Culver City, CA this spring to learn how to create Stereoscopic 3D work from the pros. After being slammed with other work for the past few weeks, we've finally had time to create our first stereoscopic tests and they look so cool! Stop by the Atlanta studio anytime to take a spin, and we'll do more formal show-and-tells soon...stay tuned...</p>
-									<p><span class="img_src" src="images/Stereoscopic.jpg" alt="" border="0" ></span></p>
-								</div>
-							</div>				
-						</div>
-						<div class="news_item clearfix">
-							<div class="news_image"><span class="img_src" src="images/news_8.jpg" alt="" border="0" ></span></div>
-							<div class="news_desc">
-								<h4>REI Page Takeover for BBDO <span>April 4, 2011</span></h4>
-								<p>We partnered with BBDO Atlanta to shoot and composite a page takeover for REI on backpacker.com.</p>	
-								<p class="more"><a href="">More ...</a>		
-							</div>	
-							<div class="news_content">
-								<div class="article">
-									<h2>REI Page Takeover for BBDO</h2>
-									<p>We partnered with BBDO Atlanta to shoot and composite a page takeover for REI on backpacker.com. Check it out! (And keep your eye on the ASK THE GEAR GURU guy on the left.)</p>
-	
-									<p><iframe data-src="http://player.vimeo.com/video/26080799?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
-								</div>
-							</div>				
-						</div>
+												
 					</li>
 				</ul>
 			</div>

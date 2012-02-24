@@ -1,0 +1,1098 @@
+.js nav, .js #home, .js #news, .js #work, .js #connect {
+display:none;
+}
+.img_src {
+background:#ccc;
+border:1px dotted #666;
+display:inline-block;
+}
+a { outline: none; }
+:-moz-any-link:focus { outline: none; }
+
+.loading {
+background:url('../images/ajax-loader.gif') 50% 50% no-repeat;
+height:100px;
+width:170px;
+}
+
+
+/* =============================================================================
+Setup Body and Main Panels
+========================================================================== */
+body{
+background:#aaa url('../images/site_bg.jpg') 50% 0 repeat-y;
+font-family:Arial, Helvetica, sans-serif;
+}
+#home{
+background:url('../images/home_bg.png') 50% 0px no-repeat fixed;
+height: 2750px;
+padding: 0;
+margin: 0;	
+position:relative;
+z-index:1;
+width:100%;
+}
+#home_content {
+background:url('../images/home_content_bg.jpg') 50% 50% no-repeat; 
+-webkit-background-size: 2000px 1190px;
+width:100%;
+height:700px;
+}
+#news{
+height:700px;
+margin: 0;
+padding: 0;
+position:relative;
+z-index:1;
+width:100%;
+}
+#work{
+color: white;
+height:700px;
+position:relative;
+padding: 0;	
+width:100%;
+}
+#work_content {
+background:url('../images/work_bg.jpg') 50% 50% no-repeat;
+-webkit-background-size: 2000px 1200px;
+width:100%;
+height:700px;
+}
+#connect{
+background: url('../images/plusses_bg.png') 50% 0 repeat-y fixed;
+height:700px;
+position:relative;
+width:100%
+}
+#connect_content {
+background:url('../images/contact_content_bg.png') 50% bottom no-repeat;
+width:100%;
+color: white;
+height:700px;
+}
+.centering {
+height:100%;
+margin: 0 auto;
+width: 900px;
+}
+.offset {
+height:100%;
+margin-left:142px;
+position:relative;
+width:760px;
+}
+.panels {
+position:absolute; 
+top:50%; 
+margin-top:-240px;
+width:772px; 
+background:#999; 
+padding:0px; 
+height:400px;
+}
+#home .panels {
+background:none; 
+margin-top:-200px;
+}
+#news .panels {
+height:550px;
+width:500px; 
+margin-left:120px; 
+background:none;
+position:absolute !important;
+}
+#work .panels {
+background:#000;
+margin:-280px 0 0 0px;
+width:720px; 
+padding:35px 20px 0px 30px; 
+height:488px;
+z-index:1; 
+}
+#connect .panels {
+background:none;
+bottom:178px; 
+width:760px; 
+padding:20px; 
+height:200px;
+margin-top:0;
+top:auto;
+}
+/* START Home Panels */
+.panel_grid {
+width:100%;	
+}
+.grid {
+float:left;	
+}
+.grid .promo_panel {
+border:6px solid #fff;
+margin:0px 6px 12px 6px;
+overflow:hidden;
+}
+.grid.small .promo_panel {
+margin-bottom:4px;
+}
+.grid.small {
+height:160px;
+width:144px;
+}
+.grid.small .promo_panel, .grid.small .promo_panel img {
+height:70px;
+width:134px;
+}
+.grid.medium {
+height:206px;
+width:192px;
+}
+.grid.medium .promo_panel, .grid.medium .promo_panel img {
+height:88px;
+width:168px;
+}
+.grid.large {
+height:180px;
+width:307px;
+}
+.grid.large .promo_panel, .grid.large .promo_panel img {
+height:156px;
+width:284px;
+}
+.grid.xl {
+height:225px;
+width:388px;
+}
+.grid.xl .promo_panel, .grid.xl .promo_panel img {
+height:200px;
+width:364px;
+}
+.promo_panel {
+position: relative;
+font-size: .8em;
+-moz-perspective: 600;
+-webkit-perspective: 600;
+}
+.promo_panel .front, .work_item .front {
+float: none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 900;
+width: inherit;
+height: inherit;
+background: #ccc;
+/*-webkit-transform: rotateX(0deg);
+-webkit-transform-style: preserve-3d;
+-webkit-backface-visibility: hidden;
+-- transition is the magic sauce for animation -- */
+-o-transition: all .4s ease-in-out;
+-ms-transition: all .4s ease-in-out;
+-moz-transition: all .4s ease-in-out;
+-webkit-transition: all .4s ease-in-out;
+transition: all .4s ease-in-out;
+}
+.promo_panel .back, .work_item .back {
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+float: none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 800;
+width: inherit;
+height: inherit;
+background: #970000;
+color:#fff;
+/*-webkit-transform: rotateX(180deg);
+-webkit-transform-style: preserve-3d;
+-webkit-backface-visibility: hidden;
+-- transition is the magic sauce for animation -- */
+-o-transition: all .4s ease-in-out;
+-ms-transition: all .4s ease-in-out;
+-moz-transition: all .4s ease-in-out;
+-webkit-transition: all .4s ease-in-out;
+transition: all .4s ease-in-out;
+overflow:hidden;
+}
+.promo_panel .back h4 { 
+text-transform:uppercase;
+font-size:280%;
+margin-top:-6px;
+}
+.grid.xl .promo_panel .back h4 {
+font-size:600%;
+margin-top:-14px;
+}
+.grid.large .promo_panel .back h4 {
+font-size:400%;
+margin-top:-8px;
+}
+.grid.small .promo_panel .back h4 {
+font-size:200%;
+margin-top:-4px;
+}
+.promo_panel .back p { 
+margin:0 0 2px 10px;
+line-height:1.3;
+width:80%;
+}
+.promo_panel .back a { 
+color:#fff;
+text-decoration:none;
+}
+.grid.xl .promo_panel .back p {
+font-size:160%;
+margin:0 0 6px 20px;
+}
+.grid.large .promo_panel .back p {
+font-size:130%;
+margin:0 0 3px 14px;
+}
+.grid.small .promo_panel .back p {
+font-size:85%;
+margin:0 0 2px 10px;
+}
+.promo_panel .circle, .work_item .circle { 
+background:#c97a7a;
+height:28px;
+bottom:-3px;
+right:-3px;
+border-radius:28px;
+position:absolute;
+width:28px;
+}
+.grid.xl .promo_panel .circle {
+border-radius:60px;
+height:60px;
+width:60px;
+}
+.grid.large .promo_panel .circle{
+border-radius:50px;
+height:50px;
+width:50px;
+}
+.work_item .circle {
+border-radius:36px;
+height:36px;
+width:36px;
+}
+.promo_panel .circle .news { 
+display:block;
+padding:9px 0 0 6px;
+}
+.promo_panel .news .border { 
+display:block;
+height:2px;
+border-top:2px solid #b50000;
+width:15px;
+}
+.promo_panel .circle .arrow, .work_item .circle .arrow { 
+border-bottom: 6px solid transparent;
+border-left: 6px solid #970000;
+border-top: 6px solid transparent;
+height:0px;
+left:12px;
+position:absolute;
+top:8px;
+width:0px;
+}
+.grid.xl .promo_panel .arrow  {
+border-width:16px;
+left:24px;
+top:14px;
+}
+.grid.large .promo_panel .arrow {
+border-width:12px;
+left:21px;
+top:13px;
+}
+.work_item .circle .arrow {
+border-width:8px;
+left:15px;
+top:10px;
+}
+.promo_panel.flip {
+cursor:pointer;
+}
+.promo_panel.flip .front, .work_item.flip .front {
+top:200%;
+}
+/* END Home Panels */
+
+
+
+
+/* START Global Slide Navigation  */
+.flex-direction-nav {
+bottom: 60px;
+height: 16px;
+left: 50%;
+list-style: none;
+margin-left: -65px;
+position: absolute;
+width: 130px;
+z-index:1;
+}
+.flex-control-nav {
+bottom: 64px;
+height: 8px;
+left: 50%;
+list-style: none;
+position: absolute;
+z-index:2;
+}
+#work .flex-direction-nav {
+bottom: -36px;
+}
+#work .flex-control-nav {
+bottom: -32px;
+}
+.flex-direction-nav a {
+background:#666;
+height:14px;
+padding-top:2px;
+text-indent:-5000px;
+width:14px;
+}
+.flex-direction-nav .prev {
+position:absolute;
+left:0;
+}
+.flex-direction-nav .next {
+position:absolute;
+right:0;
+}
+.flex-direction-nav .arrow { 
+border-bottom: 6px solid transparent;
+border-left: 6px solid #a0a0a0;
+border-top: 6px solid transparent;
+height:0px;
+display:block;
+margin:0 0 0 4px;
+width:0px;
+}
+.flex-direction-nav .arrow.left { 
+border-right: 6px solid #a0a0a0;
+border-left: none;
+margin-left:3px;
+}
+.flex-control-nav li {
+float:left;
+}
+.flex-control-nav li a {
+background:#666;
+cursor:pointer;
+display:block;
+height:8px;
+margin-right:10px;
+text-indent:-5000px;
+width:8px;
+}
+.flex-control-nav li a.active {
+background:#9c0000;
+}
+/* END Global Slide Navigation */
+
+
+
+
+
+
+/* START News specific code */
+.news_item {
+padding-right:20px;
+margin:0 0 10px;
+cursor:pointer;
+}
+.news_item .news_image {
+float:left;
+width:235px;
+}
+.news_item .news_image .img_src, .news_item .news_image img {
+border:6px solid #fff;
+width:212px;
+height:125px;
+}
+.news_item .news_desc h4 {
+font-size:80%;
+font-weight: bold;
+margin:10px 0 8px 235px;
+text-transform:uppercase;
+}
+.news_item .news_desc h4 span {
+display: block;
+font-size: 80%;
+font-weight: normal;
+padding-top: 3px;
+text-transform: none;
+}
+.news_item .news_desc p {
+font-size:75%;
+line-height:1.4;
+margin:8px 0 8px 235px;
+}
+.news_item .news_desc p.more {
+margin-top:-4px;	
+}
+.news_item .news_desc p.more a {
+color:#980000;
+text-decoration:none;
+margin-top:-4px;
+}
+#news .panel {
+height:440px;
+width:500px;
+}
+.promo_panel .news_content, .news_item .news_content {
+display:none;	
+}
+#colorbox .article {
+background:#fff;
+padding:20px;
+}
+#colorbox .article h2 {
+font-weight:bold;
+margin:0 0 10px 0;
+}
+#colorbox .article p {
+color:#000;
+font-size:85%;
+line-height:1.2;
+}
+#colorbox .article img {
+max-width:100%;
+}
+/* END News specific code */
+
+
+
+
+
+
+
+
+
+
+/* =============================================================================
+Work Panels
+========================================================================== */
+#work .drop_shadow {
+-webkit-box-shadow: 0px 0px 60px 10px #333; 
+box-shadow: 0px 0px 60px 10px #333; 
+position:absolute; 
+z-index:1; 
+top:50%; 
+left:10px; 
+width:750px; 
+height:250px; 
+margin:-125px 0 0 0px;
+}
+#work .work_item {
+border:6px solid #fff;
+height:120px;
+float:left;
+margin:0px 6px 12px 6px;
+cursor:pointer;
+overflow:hidden;
+position:relative;
+width:212px;
+}
+#work .work_item img {
+position:absolute;
+margin-top:-79px;
+top:50%;
+}
+
+#work .work_item h5 {
+font-size:90%;
+line-height:1.3;
+padding:10px 0 0 12px;
+width:80%;
+}
+#work .work_item h5 a {
+color:#fff;
+text-decoration:none;
+}
+
+#work .panel {
+height:432px;
+display: block;
+width:720px;
+}
+#work .flexslider {
+height: 432px;
+width:720px;
+overflow:hidden;
+}
+#work .loading {
+background:url('../images/ajax-loader.gif') 50% 50% no-repeat;
+height:432px;
+width:720px;
+}
+#work .tags {
+color:#fff;
+padding-left:20px;
+}
+#work .tags h6 {
+font-size:75%;
+float:left;
+font-weight:bold;
+line-height:1.6;
+text-transform:uppercase;
+width:110px;
+}
+#work .tags ul {
+float:left;
+list-style:none;
+width:580px;
+}
+#work .tags li {
+float:left;
+font-size:75%;
+font-weight:bold;
+line-height:1.6;
+margin-right:15px;
+cursor:pointer;
+}
+#work .tags li.active, #work .tags li:hover {
+color:#980000;
+}
+
+
+
+/* =============================================================================
+Connect Panels
+========================================================================== */
+#connect_content {
+font-size:75%;
+font-weight:bold;
+}
+#connect_content a {
+color:#fff;
+}
+#connect_content  p {
+margin:5px 0;
+}
+#connect_content  p.facebook a {
+background:url('../images/like.png') 0 4px no-repeat;
+display:inline-block;
+line-height:30px;
+padding-left:25px;
+text-decoration:none;
+}
+#connect_content .location {
+float:left;
+width:175px;
+}
+#connect_content .location h5 {
+font-size:130%;
+color:#000;
+margin-bottom:10px;
+}
+#connect_content .location p {
+line-height:1.4;
+margin:5px 0;
+}
+#connect_content .location a {
+text-decoration:none;
+}
+#connect_content .location a:hover {
+text-decoration:underline;
+}
+#connect .email, #connect .keep_up {
+margin:30px 0;
+}
+#connect .email h5, #connect .email p {
+display:inline;	
+}
+#connect .email h5 span {
+text-transform:none;
+}
+#connect .email h5, #connect .keep_up h5 {
+text-transform:uppercase;
+}
+
+
+
+/* =============================================================================
+START - Style ovverrides for thin displays like iPad Portrait and Kindle/Nook/etc. This instead of media queries, so we can control JS too
+========================================================================== */
+.thin .centering {
+width:600px;
+}
+.thin .offset {
+margin-left:0;
+margin:0 auto;
+width:100%;
+}
+.thin .panels {
+width:600px;
+}
+.thin #home .panels {
+margin-left:10px;
+margin-top: -320px;
+width:590px;
+}
+.thin .grid.medium.shift {
+position:absolute;
+left:295px;
+top:388px;
+height:166px;
+width:294px;
+}
+.thin .grid.medium.shift .promo_panel, .thin .grid.medium.shift .promo_panel img {
+height:138px;
+width:261px;
+}
+.thin .grid.large{
+height: 162px;
+width:294px;	
+}
+.thin .grid.small {
+height: 324px;
+width:294px;	
+}
+.thin .grid.small .promo_panel {
+margin-bottom: 14px;
+}
+.thin .grid.large .promo_panel, .thin .grid.small .promo_panel, .thin .grid.small .promo_panel img {
+height:138px;
+width:261px;
+}
+.thin .grid.small .promo_panel .back h4, .thin .grid.medium.shift .promo_panel .back h4 {
+font-size:400%;
+margin-top:-8px;
+}
+.thin .grid.small .promo_panel .back p, .thin .grid.medium.shift .promo_panel .back p {
+font-size:130%;
+margin:0 0 3px 14px;
+}
+.thin .grid.small .promo_panel .circle, .thin .grid.medium.shift .promo_panel .circle {
+border-radius:50px;
+height:50px;
+width:50px;
+}
+.thin .grid.small .promo_panel .arrow, .thin .grid.medium.shift .promo_panel .arrow {
+border-width:12px;
+left:21px;
+top:13px;
+}
+.thin .promo_panel .circle .news { 
+display:block;
+padding:15px 0 0 12px;
+}
+.thin .promo_panel .news .border { 
+display:block;
+height:4px;
+border-top:3px solid #b50000;
+width:25px;
+}
+.thin #news .panels {
+margin-left:70px;	
+}
+.thin #work .drop_shadow {
+margin-left: 50px;
+width:495px;
+}
+.thin #work .panels {
+height:530px;
+margin-left: 40px;
+padding: 40px 15px 0px 30px;
+width:495px;
+}
+.thin #work .panel {
+width:495px;
+}
+.thin #work .flexslider {
+width:495px;
+}
+.thin #work .loading {
+height:432px;
+width:495px;
+}
+.thin #work .tags h6 {
+padding-left: 0;
+}
+.thin #work .tags ul {
+width: 465px;
+}
+.thin #connect .panels {
+margin-left:100px;
+width: 500px;
+}
+/* =============================================================================
+END - Style ovverrides for thin displays like iPad Portrait and Kindle/Nook/etc.
+========================================================================== */
+
+
+/* =============================================================================
+START - Style ovverrides for small displays like iPhone landscape and Droid Razor/etc. This instead of media queries, so we can control JS too
+========================================================================== */
+.small .centering {
+width: 480px;
+}
+.small .offset {
+margin-left:0;
+margin:0 auto;
+width:100%;
+}
+html.small .promo_panel {
+border:4px solid #fff;
+}
+.small .panels {
+margin-top: 0px;
+top:80px;
+width:480px;
+}
+.small #home .panels {
+margin-left:10px;
+margin-top: 0px;
+width:465px;
+}
+.small .grid.medium.shift {
+position:absolute;
+left: 229px;
+top: 309px;
+height:138px;
+width:228px;
+}
+.small .grid.medium.shift .promo_panel, .small .grid.medium.shift .promo_panel img {
+height:116px;
+width:210px;
+}
+.small .grid.large{
+height: 133px;
+width:228px;	
+}
+.small .grid.xl {
+height: 176px;
+width:290px;	
+}
+.small .grid.small {
+height: 276px;
+width:228px;	
+}
+.small .grid.medium{
+height: 176px;
+width:148px;	
+}
+.small .grid.small .promo_panel {
+margin-bottom:8px;
+}
+.small .grid.medium .promo_panel {
+margin-bottom:8px;
+}
+.small .grid.medium .promo_panel, .small .grid.medium .promo_panel img {
+height:72px;
+width:132px;
+}
+.small .grid.xl .promo_panel, .small .grid.xl .promo_panel img {
+height:160px;
+width:290px;
+}
+.small .grid.large .promo_panel, .small .grid.large .promo_panel img, .small .grid.small .promo_panel, .small .grid.small .promo_panel img {
+height:116px;
+width:210px;
+}
+.small .grid.medium .promo_panel .back h4 {
+font-size:180%;
+margin-top:-4px;
+}
+.small .grid.medium .promo_panel .back p {
+font-size:90%;
+margin:0 0 3px 14px;
+}
+
+.small .grid.small .promo_panel .back h4, .small .grid.medium.shift .promo_panel .back h4, .small .grid.large .promo_panel .back h4 {
+font-size:300%;
+margin-top:-6px;
+}
+.small .grid.small .promo_panel .back p, .small .grid.medium.shift .promo_panel .back p, .small .grid.large .promo_panel .back p {
+font-size:110%;
+margin:0 0 3px 14px;
+}
+.small .grid.small .promo_panel .circle, .small .grid.medium.shift .promo_panel .circle {
+border-radius:50px;
+height:50px;
+width:50px;
+}
+.small .grid.small .promo_panel .arrow, .small .grid.medium.shift .promo_panel .arrow {
+border-width:12px;
+left:21px;
+top:13px;
+}
+.small .promo_panel .circle .news { 
+display:block;
+padding:15px 0 0 12px;
+}
+.small .promo_panel .news .border { 
+display:block;
+height:4px;
+border-top:3px solid #b50000;
+width:25px;
+}
+.small #news .panels {
+margin-left:25px;	
+width:435px;
+}
+.small .news_item .news_image {
+float: left;
+height:145px;
+width:220px;
+}
+.small .news_item .news_image .img_src, .small  .news_item .news_image img {
+border-width:4px;
+height:118px;
+width:200px;
+}
+.small .news_item .news_desc h4 {
+margin-top:2px;
+margin-left:220px;
+}
+.small .news_item .news_desc p {
+margin-left:220px;
+}
+.small .news_item .news_desc p.more {
+display:none;
+}
+
+
+.small #work .drop_shadow {
+display:none;
+}
+.small #work .panels {
+height:500px;
+margin: 0 0 0 10px;
+padding: 20px 5px 0px 15px;
+width:435px;
+}
+.small #work .panel {
+height:400px;
+width:435px;
+}
+.small #work .flexslider {
+height:400px;
+width:435px;
+}
+.small #work .loading {
+height:500px;
+width:435px;
+}
+.small #work .work_item {
+border:4px solid #fff;
+height: 110px;
+width: 191px;
+}
+.small #work .work_item img {
+height:143px;
+margin-top:-70px;
+width:191px;
+}
+.small #work .tags {
+padding-left: 10px;
+}
+.small #work .tags h6 {
+padding-left: 0;
+}
+.small #work .tags ul {
+width: 425px;
+}
+
+.small #connect_content {
+background:url('../images/contact_content_bg.png') 58% bottom no-repeat;	
+}
+.small #connect .panels {
+bottom: 200px;
+margin-left:40px;
+padding:0;
+width: 435px;
+}
+
+/* =============================================================================
+END - Style ovverrides for small displays like iPhone landscape and Droid Razor/etc. 
+========================================================================== */
+
+
+/* =============================================================================
+START - Style ovverrides for mini displays like iPhone Portrait and Android Portrait
+========================================================================== */
+.mini .centering {
+width: 300px;
+}
+.mini .offset {
+margin-left:0;
+margin:0 auto;
+width:100%;
+}
+.mini .panels {
+margin:0px;
+top:80px;
+width: 300px;
+}
+.mini #home .panels {
+height:440px;
+margin-left: 0px;
+margin-top: 0px;
+}
+.mini .medium .promo_panel, .mini .large .promo_panel {
+margin:0;
+border-width:4px;
+}
+.mini .xl .promo_panel, .mini .large .promo_panel {
+margin:0;
+border-width:4px;
+}
+.mini .grid.medium .promo_panel {
+float:left;
+}
+.mini .grid.small {
+display:none;	
+}
+.mini .grid.medium {
+height: 88px;
+width:300px;
+}
+.mini .grid.large {
+height: 88px;
+margin:0px 5px;
+width:140px;	
+}
+.mini .grid.xl {
+height: 172px;
+margin-left:5px;
+width:290px;	
+}
+.mini .grid.xl .promo_panel, .mini .grid.xl .promo_panel img {
+height:155px;
+width:282px;
+}
+.mini .grid.large .promo_panel, .mini .grid.medium .promo_panel, .mini .grid.large .promo_panel img, .mini .grid.medium .promo_panel img {
+height:72px;
+width:132px;
+}
+.mini .grid.medium .promo_panel {
+margin:0px 5px;
+}
+.mini .grid.medium .promo_panel .back h4, .mini .grid.large .promo_panel .back h4 {
+font-size:180%;
+margin-top:-4px;
+}
+.mini .grid.medium .promo_panel .back p, .mini .grid.large .promo_panel .back p {
+font-size:90%;
+margin:0 0 3px 14px;
+}
+.mini .grid.large .promo_panel .circle {
+border-radius:28px;
+height:28px;
+width:28px;
+}
+.mini .grid.large .promo_panel .arrow{
+border-width:6px;
+left:12px;
+top:8px;
+}
+.mini #news .panels {
+height:340px;
+margin: 10px 0 0 10px;
+width: 290px;
+}
+.mini #news .panel {
+height: 320px;
+}
+.mini .news_item {
+margin-bottom:20px;
+padding-right:5px;
+}
+.mini .news_item .news_image {
+float: left;
+height:80px;
+width:140px;
+}
+.mini .news_item .news_image .img_src, .mini  .news_item .news_image img {
+border-width:4px;
+height:70px;
+width:120px;
+}
+.mini .news_item .news_desc h4 {
+margin: 10px 0 8px 140px;
+}
+.mini .news_item .news_desc p {
+display:none;
+}
+.mini .news_item .news_desc p.more {
+display:block;
+margin: 8px 0 0 140px;
+}
+.mini #news .flex-control-nav {
+bottom: 24px;
+}
+.mini #news .flex-direction-nav {
+bottom: 20px;
+}
+
+
+.mini #work .loading {
+height:265px;
+margin: 0px;
+width: 276px;
+}
+.mini #work .panels {
+height:380px;
+margin: 5px 0 0 5px;
+padding: 10px 0 0 7px;
+width: 284px;
+}
+.mini #work .tags {
+margin-left:0;
+padding-left: 10px;
+}
+.mini #work .tags ul {
+width: 270px;
+}
+.mini #work .panel {
+display: block;
+height: 265px;
+width: 276px;
+}
+.mini #work .flexslider {
+display: block;
+height: 265px;
+width: 276px;
+}
+.mini #work .work_item {
+border: 4px solid #FFFFFF;
+height: 70px;
+margin: 0 4px 8px;
+width: 122px;
+}
+.mini #work .work_item img {
+height:92px;
+margin-top:-46px;
+width:122px;
+}
+.mini #work .work_item h5 {
+font-size: 75%;
+line-height: 1.3;
+padding: 6px 0 0 8px;
+width: 80%;
+}
+
+.mini #connect_content {
+background:url('../images/contact_content_bg.png') 68% bottom no-repeat;	
+}
+.mini #connect .panels {
+bottom:30px;
+height:300px;
+margin: 0px 0 0 10px;
+padding:0;
+width: 290px;
+}
+.mini #newsletter label {
+display:block;	
+margin-bottom:5px;
+}
+.mini #connect_content .location {
+width: 145px;
+}
+/* =============================================================================
+END - Style ovverrides for mini displays like iPhone Portrait and Android Portrait
+========================================================================== */
