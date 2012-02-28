@@ -582,7 +582,7 @@ $(document).ready(function() {
 			//if the fourth section is in view...
 			if($fourthBG.hasClass("inview")){
 				//call the newPos function and change the background position for CSS3 multiple backgrounds
-				$fourthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, 0.3)});
+				$fourthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 450, 0.3)});
 			}
 		}
 
