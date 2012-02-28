@@ -25,9 +25,9 @@ font-family:Arial, Helvetica, sans-serif;
 }
 #home{
 background:url('../images/home_bg.png') 50% 0px no-repeat fixed;
-height: 2750px;
+height: 3250px;
 padding: 0;
-margin: 0;	
+margin: 0 0 -700px 0;	
 position:relative;
 z-index:1;
 width:100%;
@@ -40,7 +40,7 @@ height:700px;
 }
 #news{
 height:700px;
-margin: 0;
+margin:0;
 padding: 0;
 position:relative;
 z-index:1;
