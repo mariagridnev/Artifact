@@ -89,7 +89,13 @@ $(function(){
 	//	generatePagination:true,
 	//	generateNextPrev :true
 	//});
+	
+	// generate slides out of a bunch of news_item divs
+	$('#news .news_item:eq(0),#news .slides .news_item:eq(1),#news .slides .news_item:eq(2)').wrapAll('<li class="panel">');
+	$('#news .news_item:eq(3),#news .slides .news_item:eq(4),#news .slides .news_item:eq(5)').wrapAll('<li class="panel">');
+	$('#news .news_item:eq(6),#news .slides .news_item:eq(7),#news .slides .news_item:eq(8)').wrapAll('<li class="panel">');
 
+	// create the flex slider
 	$('#news .flexslider').flexslider({
 				animation: 'slide',              //String: Select your animation type, "fade" or "slide"
 				slideshow: false, 
@@ -184,33 +190,7 @@ $(function(){
    },
    
    	itemTemplate:'<div class="work_item"><div class="front"><img src="{imgSource}" alt="" border="0" width="212" height="159" /></div><div class="back"><h5><a class="video" href="http://vimeo.com/{videoId}" data-videotitle="{videoTitle}" data-videodesc="{videoDescription}" data-videoid="{videoId}">{videoTitle}</a></h5><span class="circle"><span class="arrow"></span></span></div></div>',
-   
-   _processData:function(dataItem,self) {
-	   
-	   var self = this;
-	   	   
-	   var maxTiles = 27;
-	   var tilesPerPanel = 9;
-	      
-	   if(artifact.displayWidth.whatSize() != 'full') {
-		  maxTiles = 24;
-		  tilesPerPanel = 6;
-	   }
-	   	   	   
-	   if(self.counter < maxTiles) {
-			if((self.counter%tilesPerPanel == 0) && (self.counter != 0)) {
-				self.itemSource += '</li><li class="panel clearfix">';
-			}
-
-			self.itemSource += artifact.substitute(self.itemTemplate,{ imgSource:dataItem.thumbnail_medium,
-																		videoId:dataItem.id,
-																		videoTitle:dataItem.title,
-																		videoDescription:dataItem.description });
-		}
-
-		self.counter++;
-   },
-      
+         
    _assignClickHandler:function(){
 	   
 	   var self = this;
@@ -247,42 +227,45 @@ $(function(){
 	   //$flexSlider.find('.slides').css({'marginLeft':'0','width':'0','-webkit-transform':'translate3d(0px,0px,0px)'});
 
 	   $('#work .panels').prepend('<div class="flexslider"><ul class="slides"><div class="loading"></div></ul></div>');
-	      
-		$.getJSON("http://vimeo.com/api/v2/album/" + self.albumID + "/videos.json?callback=?",function(data) {
-			
-			$(data).each(function(){self._processData(this,self);});
-						
-			$.getJSON("http://vimeo.com/api/v2/album/" + self.albumID + "/videos.json?page=2&callback=?",function(data) {
-																							  
-				$(data).each(function(){self._processData(this);});
-				
-				self.itemSource += '</li>';
-	   			
-				$('#work .slides').html(self.itemSource);
-
-				$('.work_item').hoverIntent({over:function(){
-						$(this).addClass('flip');
-				},interval:75,out:function(){
-						$(this).removeClass('flip');
-				}});
-				
-				$('#work .flexslider').flexslider({
-					animation: 'slide',              //String: Select your animation type, "fade" or "slide"
-					slideshow: false, 
-					prevText: '<span class="arrow left">Previous</span>',           //String: Set the text for the "previous" directionNav item
-					nextText: '<span class="arrow right">Next</span>'
-				});
-
-				self._assignClickHandler();
-				
-				//$('#work .flexslider').hide();
-				//$('#work .flexslider').fadeIn(500);
+	   
+		
+		$.getJSON("http://www.artifactdesign.com/vimeo/index.php?album_id=" + self.albumID,function(data) {
+			$(data.videos.video).each(function(i){
+					
+					self.itemSource += artifact.substitute(self.itemTemplate,{ 
+						imgSource:this.thumbnails.thumbnail[1]._content,
+						videoId:this.id,
+						videoTitle:this.title,
+						videoDescription:this.description 
+					});	
+					if (((i+1)%9 === 0) && ((i+1) != 27)) {
+						self.itemSource += '</li><li class="panel clearfix">';
+					}
+					
 			});
+			self.itemSource += '</li>';
 			
+			$('#work .slides').html(self.itemSource);
+
+			$('.work_item').hoverIntent({over:function(){
+					$(this).addClass('flip');
+			},interval:75,out:function(){
+					$(this).removeClass('flip');
+			}});
+			
+			$('#work .flexslider').flexslider({
+				animation: 'slide',              //String: Select your animation type, "fade" or "slide"
+				slideshow: false, 
+				prevText: '<span class="arrow left">Previous</span>',           //String: Set the text for the "previous" directionNav item
+				nextText: '<span class="arrow right">Next</span>'
+			});
+
+			self._assignClickHandler();
 		});
-	   }
 
    }
+
+}
    
 $(window).bind('action', function(){ 
 	$(document).ready(function() {
