@@ -235,8 +235,8 @@ $(function(){
 					self.itemSource += artifact.substitute(self.itemTemplate,{ 
 						imgSource:this.thumbnails.thumbnail[1]._content,
 						videoId:this.id,
-						videoTitle:this.title,
-						videoDescription:this.description 
+						videoTitle:this.title.replace(/\x22/g, '&quot;'),
+						videoDescription:this.description.replace(/\x22/g, '&quot;')
 					});	
 					if (((i+1)%9 === 0) && ((i+1) != 27)) {
 						self.itemSource += '</li><li class="panel clearfix">';
@@ -565,7 +565,7 @@ $(document).ready(function() {
 			//if the fourth section is in view...
 			if($fourthBG.hasClass("inview")){
 				//call the newPos function and change the background position for CSS3 multiple backgrounds
-				$fourthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 450, 0.3)});
+				$fourthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, 0.3)});
 			}
 		}
 

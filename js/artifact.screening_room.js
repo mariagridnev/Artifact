@@ -41,9 +41,10 @@ artifact.screening = {
 			listSource += artifact.substitute(linkTemplate,{ 
 				imgSource:this.thumbnails.thumbnail[1]._content,
 				videoId:this.id,
-				videoTitle:this.title,
-				videoDescription:this.description 
-			});				  
+				videoTitle:this.title.replace(/\x22/g, '&quot;'),
+				videoDescription:this.description.replace(/\x22/g, '&quot;')
+			});	
+			console.log(listSource);
 		});
 		
 		self.defaults.$container.hide();
