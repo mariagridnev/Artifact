@@ -40,8 +40,7 @@
 			<div class="offset">
 				<div class="panels">
 					<div class="panel_grid clearfix">
-						<div class="grid medium">
-							<div class="promo_panel">
+							<div class="promo_panel panel_1">
 								<div class="front">
 									<img src="images/4_REI_Unpacker.jpg" alt="" /> 
 								</div>
@@ -51,7 +50,7 @@
 									<span class="circle"><span class="arrow"></span></span>
 								</div>							
 							</div>
-							<div class="promo_panel">
+							<div class="promo_panel panel_2">
 									<div class="front">
 										<img src="images/6_FordSD_Steelers_Rant.jpg" alt="" /> 
 									</div>
@@ -61,9 +60,7 @@
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
-						</div>
-						<div class="grid xl">
-							<div class="promo_panel">
+							<div class="promo_panel panel_3">
 									<div class="front">
 										<img src="images/ConanThumb.jpg" alt="" /> 
 									</div>
@@ -73,9 +70,8 @@
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
-						</div>
-						<div class="grid medium shift">
-							<div class="promo_panel">
+						
+							<div class="promo_panel panel_4">
 									<div class="front">
 										<img src="images/7_NEWS_WereMoving.jpg" alt="" /> 
 									</div>
@@ -92,7 +88,7 @@
 										</div>
 									</div>							
 							</div>
-							<div class="promo_panel">
+							<div class="promo_panel panel_5">
 									<div class="front">
 										<img src="images/5_EcoCrew.jpg" alt="" /> 
 									</div>
@@ -102,9 +98,7 @@
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
-						</div>
-						<div class="grid large">
-							<div class="promo_panel">
+							<div class="promo_panel panel_6">
 									<div class="front">
 										<img src="images/1_2011Reel.jpg" alt="" /> 
 									</div>
@@ -114,9 +108,7 @@
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
-						</div>
-						<div class="grid large">
-							<div class="promo_panel">
+							<div class="promo_panel panel_7">
 									<div class="front">
 										<img src="images/Home_CartoonSummer_Med.jpg" alt="" /> 
 									</div>
@@ -126,9 +118,7 @@
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
-						</div>
-						<div class="grid small">
-							<div class="promo_panel">
+							<div class="promo_panel panel_8">
 									<div class="front">
 										<img src="images/8_CarlOpening.jpg" alt="" /> 
 									</div>
@@ -138,7 +128,7 @@
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
-							<div class="promo_panel">
+							<div class="promo_panel panel_9">
 									<div class="front">
 										<img src="images/9_Hasbro_SWCW.jpg" alt="" /> 
 									</div>
