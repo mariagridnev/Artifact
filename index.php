@@ -161,7 +161,6 @@
 		<div class="offset">
 			<div class="panels flexslider">
 				<ul class="slides">
-					<li class="panel">
 						<div class="news_item clearfix" id="auto-show">
 						<div class="news_image"><span class="img_src" src="images/Kia-Trackster-Concept-04.jpg" alt="" border="0" ></span></div>
 						<div class="news_desc">
@@ -209,10 +208,7 @@
 							</div>						
 						</div>
 						
-						
-					</li>
 				
-					<li class="panel">
 						<div class="news_item clearfix" id="casino-night">
 						<div class="news_image"><span class="img_src" src="images/news_4.jpg" alt="" border="0" ></span></div>
 						<div class="news_desc">
@@ -259,10 +255,7 @@
 							</div>					
 						</div>
 						
-						
-					</li>
-				
-					<li class="panel">
+					
 						<div class="news_item clearfix" id="leaving-la-floresta">
 							<div class="news_image"><span class="img_src" src="images/news_3.jpg" alt="" border="0" ></span></div>
 							<div class="news_desc">
@@ -314,8 +307,7 @@
 								</div>
 							</div>				
 						</div>
-												
-					</li>
+				
 				</ul>
 			</div>
 		</div>
