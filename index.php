@@ -125,19 +125,9 @@
 									</div>
 									<div class="back">
 										<h4>Work</h4>
-										<p><a data-videoid="27908116" data-videodesc="Our "Eco Crew" characters recently made their debut at the Discovery Science Center in Orange County, CA! Artifact's team of character designers and animators brought these "Virtual Clerks" to life with spunk and smarts to educate kids (of all ages) about making environmentally friendly choices." data-videotitle="Discovery Market Eco Crew" href="http://vimeo.com/27908116" class="video">Discovery Market<br/> Eco Crew</a></p>
+										<p><a data-videoid="27908116" data-videodesc="Our Eco Crew characters recently made their debut at the Discovery Science Center in Orange County, CA! Artifact's team of character designers and animators brought these "Virtual Clerks" to life with spunk and smarts to educate kids (of all ages) about making environmentally friendly choices." data-videotitle="Discovery Market Eco Crew" href="http://vimeo.com/27908116" class="video">Discovery Market<br/> Eco Crew</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>						
-							</div>
-							<div class="promo_panel panel_9">
-									<div class="front">
-										<img src="images/9_Hasbro_SWCW.jpg" alt="" /> 
-									</div>
-									<div class="back">
-										<h4>Work</h4>
-										<p><a class="video" href="http://vimeo.com/26775322" data-videotitle='Hasbro "Star Wars Clone Wars" Microsite' data-videodesc="A project that involves Star Wars Clone Wars AND super cool toys? Count us in! Our TV and Micro-Site designs for this Cartoon Network project feature stylized posters, creatively connecting the Blasters and the SWCW brands. " data-videoid="26775322">Hasbro "Star Wars Clone Wars" Microsite</a></p>
-										<span class="circle"><span class="arrow"></span></span>
-									</div>							
 							</div>
 						</div>
 					</div>
