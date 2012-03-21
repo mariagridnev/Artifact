@@ -444,6 +444,10 @@ $(document).ready(function() {
 	}
 	
 	function resizeContainers(){
+		$('.promo_panel .front').css('-webkit-transition','none');
+		$('.promo_panel .front').css('-moz-transition','none');
+		$('.promo_panel .front').css('transition','none');
+		
 		var windowHeight = $window.height();
 		if (artifact.displayWidth.whatSize() == 'full') {
 			if(windowHeight > 650) {
@@ -529,6 +533,10 @@ $(document).ready(function() {
 				$('#home').css('height','1700px');
 			}
 		}
+		
+		$('.promo_panel .front').css('-webkit-transition','all .4s ease-in-out');
+		$('.promo_panel .front').css('-moz-transition','all .4s ease-in-out');
+		$('.promo_panel .front').css('transition','all .4s ease-in-out');
 
 		}
 	

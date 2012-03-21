@@ -62,7 +62,7 @@
 							</div>
 							<div class="promo_panel panel_3">
 									<div class="front">
-										<img src="images/ConanThumb.jpg" alt="" /> 
+										<img src="images/Conan_HomeThumb_NewGrid.jpg" alt="" /> 
 									</div>
 									<div class="back">
 										<h4>Work</h4>
@@ -89,12 +89,13 @@
 									</div>							
 							</div>
 							<div class="promo_panel panel_5">
+									
 									<div class="front">
-										<img src="images/5_EcoCrew.jpg" alt="" /> 
+										<img src="images/8_CarlOpening.jpg" alt="" /> 
 									</div>
 									<div class="back">
 										<h4>Work</h4>
-										<p><a data-videoid="27908116" data-videodesc="Our “Eco Crew” characters recently made their debut at the Discovery Science Center in Orange County, CA! Artifact's team of character designers and animators brought these “Virtual Clerks” to life with spunk and smarts to educate kids (of all ages) about making environmentally friendly choices." data-videotitle="Discovery Market Eco Crew" href="http://vimeo.com/27908116" class="video">Discovery Market<br/> Eco Crew</a></p>
+										<p><a data-videoid="30331490" data-videodesc="Opening title sequence for the motion picture CARL, a psychological thriller depicting a backwoods family with a dark secret. Produced by OOTC Productions and directed by Greg Daniel. " data-videotitle='"Carl" Opening Credits' href="http://vimeo.com/30331490" class="video">"Carl" Opening Credits</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
@@ -120,13 +121,13 @@
 							</div>
 							<div class="promo_panel panel_8">
 									<div class="front">
-										<img src="images/8_CarlOpening.jpg" alt="" /> 
+										<img src="images/5_EcoCrew.jpg" alt="" /> 
 									</div>
 									<div class="back">
 										<h4>Work</h4>
-										<p><a data-videoid="30331490" data-videodesc="Opening title sequence for the motion picture CARL, a psychological thriller depicting a backwoods family with a dark secret. Produced by OOTC Productions and directed by Greg Daniel. " data-videotitle='"Carl" Opening Credits' href="http://vimeo.com/30331490" class="video">"Carl" Opening Credits</a></p>
+										<p><a data-videoid="27908116" data-videodesc="Our "Eco Crew" characters recently made their debut at the Discovery Science Center in Orange County, CA! Artifact's team of character designers and animators brought these "Virtual Clerks" to life with spunk and smarts to educate kids (of all ages) about making environmentally friendly choices." data-videotitle="Discovery Market Eco Crew" href="http://vimeo.com/27908116" class="video">Discovery Market<br/> Eco Crew</a></p>
 										<span class="circle"><span class="arrow"></span></span>
-									</div>							
+									</div>						
 							</div>
 							<div class="promo_panel panel_9">
 									<div class="front">
