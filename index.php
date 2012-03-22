@@ -65,11 +65,12 @@
 						<div class="grid xl">
 							<div class="promo_panel">
 									<div class="front">
-										<img src="images/ConanThumb.jpg" alt="" /> 
+										<img src="images/HBO_LATINO_SiteThumb.jpg" alt="" /> 
 									</div>
 									<div class="back">
 										<h4>Work</h4>
-										<p><a data-videoid="36418245" data-videodesc="Conan O'Brien's team at TBS turned to Artifact to premier his new Team Coco App, bringing some retro-futuristic fun to all the glorious benefits of the application's features for your tablet or smart phone. Turner's Sponsor Shop gave us yet another excuse to have way too much fun at work." data-videotitle='TBS - Team Coco Tablet App' href="http://vimeo.com/36418245" class="video">TBS - Team Coco Tablet App</a></p>
+										<p><a data-videoid="37762462" data-videodesc="For our first collaboration with HBO Latino, we created an elegant, prism-inspired design package to tie the network's new shows and films together with an edgy yet sophisticated look." data-videotitle="HBO Latino - 2nd Quarter Design Package" href="http://vimeo.com/36418245" class="video">HBO Latino - 2nd Quarter Design Package 
+</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
@@ -77,19 +78,12 @@
 						<div class="grid medium shift">
 							<div class="promo_panel">
 									<div class="front">
-										<img src="images/7_NEWS_WereMoving.jpg" alt="" /> 
+										<img src="images/ConanThumb.jpg" alt="" /> 
 									</div>
 									<div class="back">
-										<h4>News</h4>
-										<p><a href="" class="video">We're Moving!</a></p>
-										<span class="circle"><span class="news"><span class="border"></span><span class="border"></span><span class="border"></span></span></span>
-										<div class="news_content">
-											<div class="article">
-												<h2>We're Moving!</h2>
-												<p>We're saying goodbye to Abbot Kinney and all of it's gloriously eclectic people, shops, and restaurants and moving into our new bigger and better digs in Culver City as of December 1st. Very exciting! More pics and a housewarming party soon!</p>
-												<p><span class="img_src" src="images/News1_WeAreMoving.jpg" ></span></p>
-											</div>
-										</div>
+										<h4>Work</h4>
+										<p><a data-videoid="36418245" data-videodesc="Conan O'Brien's team at TBS turned to Artifact to premier his new Team Coco App, bringing some retro-futuristic fun to all the glorious benefits of the application's features for your tablet or smart phone. Turner's Sponsor Shop gave us yet another excuse to have way too much fun at work." data-videotitle='TBS - Team Coco Tablet App' href="http://vimeo.com/36418245" class="video">TBS - Team Coco Tablet App</a></p>
+										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
 							<div class="promo_panel">
