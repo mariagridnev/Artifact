@@ -155,7 +155,28 @@
 		<div class="offset">
 			<div class="panels flexslider">
 				<ul class="slides">
-						<div class="news_item clearfix" id="auto-show">
+				
+					<div class="news_item clearfix" id="addy-awards">
+						<div class="news_image"><span class="img_src" src="images/NewsThumb_Addy.jpg" alt="" border="0" ></span></div>
+						<div class="news_desc">
+							<h4>Artifact wins Three ADDY Awards <span>March 14, 2012</span></h4>
+							<p>We're thrilled that our rich media campaign for outdoor retailer REI through BBDO Atlanta won three 2012 ADDY awards from the Atlanta Ad Club.</p>	
+							<p class="more"><a href="">More ...</a>			
+						</div>	
+						<div class="news_content">
+							<div class="article">
+								<h2>Artifact wins Three ADDY Awards</h2>
+								<p>We're thrilled that our rich media campaign for outdoor retailer REI through BBDO Atlanta won three 2012 ADDY awards from the Atlanta Ad Club. The work was honored with two bronze and one silver awards for our Backpacker Getaway Banners, Outdoor Loyalty Digital Campaign and Unpack Banners, respectively. Click below to check out the work!</p>
+								
+								<p><iframe data-src="http://player.vimeo.com/video/26080799?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+								
+								<p><iframe data-src="http://player.vimeo.com/video/31553417?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+
+							</div>
+						</div>				
+					</div>
+					
+					<div class="news_item clearfix" id="auto-show">
 						<div class="news_image"><span class="img_src" src="images/Kia-Trackster-Concept-04.jpg" alt="" border="0" ></span></div>
 						<div class="news_desc">
 							<h4>Chicago Auto Show Debut <span>February 20, 2012</span></h4>
@@ -281,26 +302,7 @@
 								</div>
 							</div>				
 						</div>
-						<div class="news_item clearfix" id="dream-park">
-							<div class="news_image"><span class="img_src" src="images/news_6.jpg" alt="" border="0" ></span></div>
-							<div class="news_desc">
-								<h4>Pat McNeely Designs Dream Park <span>June 14, 2011</span></h4>
-								<p>Our own Pat McNeely (and his dog Koda) came up with designs for a new dog park in their neighborhood, and won a national $500,000 contest to have the park created!</p>	
-								<p class="more"><a href="">More ...</a>			
-							</div>	
-							<div class="news_content">
-								<div class="article">
-									<h2>Pat McNeely Designs Dream Park</h2>
-									<p>Our own Pat McNeely (and his dog Koda) came up with designs for a new dog park in their neighborhood, and won a national $500,000 contest to have the park created! Congratulations, Pat! We're so impressed with your creativity, a true renaissance man... :) </p>
-									
-									<p><span class="img_src" src="images/PatDogPark.jpg" alt="" border="0" ></span></p>
-	
-									<p>Read more about the contest and the park here:</p>
-	
-									<p><a href="http://yourlife.usatoday.com/parenting-family/pet-talk/story/2011/06/Pet-Talk-500000-dream-dog-park-comes-true-in-Ga/48406984/1" target="_blank">http://usatoday.com/pet-talk/story/dream-dog-park</a></p>
-								</div>
-							</div>				
-						</div>
+						
 				
 				</ul>
 			</div>
