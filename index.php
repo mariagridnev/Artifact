@@ -92,7 +92,7 @@
 									</div>
 									<div class="back">
 										<h4>Work</h4>
-										<p><a data-videoid="27908116" data-videodesc="Our “Eco Crew” characters recently made their debut at the Discovery Science Center in Orange County, CA! Artifact's team of character designers and animators brought these “Virtual Clerks” to life with spunk and smarts to educate kids (of all ages) about making environmentally friendly choices." data-videotitle="Discovery Market Eco Crew" href="http://vimeo.com/27908116" class="video">Discovery Market<br/> Eco Crew</a></p>
+										<p><a data-videoid="27908116" data-videodesc="Our "Eco Crew" characters recently made their debut at the Discovery Science Center in Orange County, CA! Artifact's team of character designers and animators brought these "Virtual Clerks" to life with spunk and smarts to educate kids (of all ages) about making environmentally friendly choices." data-videotitle="Discovery Market Eco Crew" href="http://vimeo.com/27908116" class="video">Discovery Market<br/> Eco Crew</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
