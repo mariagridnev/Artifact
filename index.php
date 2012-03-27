@@ -52,13 +52,13 @@
 							</div>
 							<div class="promo_panel panel_2">
 									<div class="front">
-										<img src="images/6_FordSD_Steelers_Rant.jpg" alt="" /> 
+										<img src="images/1_2011Reel.jpg" alt="" /> 
 									</div>
 									<div class="back">
-										<h4>Work</h4>
-										<p><a data-videoid="32970717" data-videodesc="" data-videotitle='Ford SuperDuty "Steelers Rant"' href="http://vimeo.com/32970717" class="video">Ford Super Duty <br/>"Steelers Rant"</a></p>
+										<h4>Reel</h4>
+										<p><a data-videoid="25354001" data-videodesc="Artifact's passionate bi-coastal team of directors, artists, and developers create on-target, design-driven content for a broad range of clients in the advertising, television, and entertainment industries. " data-videotitle="2011 Reel - Some of our tastiest work to date" href="http://vimeo.com/25666338" class="video">2011 Reel - Some of our tastiest work to date</a></p>
 										<span class="circle"><span class="arrow"></span></span>
-									</div>							
+									</div>						
 							</div>
 							<div class="promo_panel panel_3">
 									<div class="front">
@@ -72,6 +72,39 @@
 							</div>
 						
 							<div class="promo_panel panel_4">
+									
+									<div class="front">
+										<img src="images/6_FordSD_Steelers_Rant.jpg" alt="" /> 
+									</div>
+									<div class="back">
+										<h4>Work</h4>
+										<p><a data-videoid="32970717" data-videodesc="" data-videotitle='Ford SuperDuty "Steelers Rant"' href="http://vimeo.com/32970717" class="video">Ford Super Duty <br/>"Steelers Rant"</a></p>
+										<span class="circle"><span class="arrow"></span></span>
+									</div>							
+							</div>
+							<div class="promo_panel panel_5">
+									<div class="front">
+										<img src="images/9_Hasbro_SWCW.jpg" alt=""> 
+									</div>
+									<div class="back">
+										<h4>Work</h4>
+										<p><a class="video" href="http://vimeo.com/26775322" data-videotitle="Hasbro &quot;Star Wars Clone Wars&quot; Microsite" data-videodesc="A project that involves Star Wars Clone Wars AND super cool toys? Count us in! Our TV and Micro-Site designs for this Cartoon Network project feature stylized posters, creatively connecting the Blasters and the SWCW brands. " data-videoid="26775322">Hasbro "Star Wars Clone Wars" Microsite</a></p>
+										<span class="circle"><span class="arrow"></span></span>
+									</div>								
+							</div>
+							<div class="promo_panel panel_6">
+									<div class="front">
+										<img src="images/8_CarlOpening.jpg" alt="" /> 
+									</div>
+									<div class="back">
+										<h4>Work</h4>
+										<p><a data-videoid="30331490" data-videodesc="Opening title sequence for the motion picture CARL, a psychological thriller depicting a backwoods family with a dark secret. Produced by OOTC Productions and directed by Greg Daniel. " data-videotitle='"Carl" Opening Credits' href="http://vimeo.com/30331490" class="video">"Carl" Opening Credits</a></p>
+										<span class="circle"><span class="arrow"></span></span>
+									</div>						
+							</div>
+							<div class="promo_panel panel_7">
+									
+									
 									<div class="front">
 										<img src="images/7_NEWS_WereMoving.jpg" alt="" /> 
 									</div>
@@ -86,37 +119,6 @@
 												<p><span class="img_src" src="images/News1_WeAreMoving.jpg" ></span></p>
 											</div>
 										</div>
-									</div>							
-							</div>
-							<div class="promo_panel panel_5">
-									
-									<div class="front">
-										<img src="images/8_CarlOpening.jpg" alt="" /> 
-									</div>
-									<div class="back">
-										<h4>Work</h4>
-										<p><a data-videoid="30331490" data-videodesc="Opening title sequence for the motion picture CARL, a psychological thriller depicting a backwoods family with a dark secret. Produced by OOTC Productions and directed by Greg Daniel. " data-videotitle='"Carl" Opening Credits' href="http://vimeo.com/30331490" class="video">"Carl" Opening Credits</a></p>
-										<span class="circle"><span class="arrow"></span></span>
-									</div>							
-							</div>
-							<div class="promo_panel panel_6">
-									<div class="front">
-										<img src="images/1_2011Reel.jpg" alt="" /> 
-									</div>
-									<div class="back">
-										<h4>Reel</h4>
-										<p><a data-videoid="25354001" data-videodesc="Artifact's passionate bi-coastal team of directors, artists, and developers create on-target, design-driven content for a broad range of clients in the advertising, television, and entertainment industries. " data-videotitle="2011 Reel - Some of our tastiest work to date" href="http://vimeo.com/25666338" class="video">2011 Reel - Some of our tastiest work to date</a></p>
-										<span class="circle"><span class="arrow"></span></span>
-									</div>							
-							</div>
-							<div class="promo_panel panel_7">
-									<div class="front">
-										<img src="images/Home_CartoonSummer_Med.jpg" alt="" /> 
-									</div>
-									<div class="back">
-										<h4>Work</h4>
-										<p><a data-videoid="34636419" data-videodesc='Thanks to Manu Muraro at Cartoon Network for hiring Artifact to direct and produce this hilarious campaign featuring The Box Hero Corps. The "Cartoon Summer 2012" spots are airing now on CNLA in Brazil (where it is indeed summer!). Live Action Production, Design, Editing, and Color Correction by Team Artifact.' data-videotitle='Cartoon Network Latin America - Cartoon Summer 2012' href="http://vimeo.com/34636419" class="video">Cartoon Network Latin America - Cartoon Summer 2012</a></p>
-										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
 							<div class="promo_panel panel_8">

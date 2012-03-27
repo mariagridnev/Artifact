@@ -149,8 +149,8 @@ height:100%;
 width:100%;
 }
 .panel_1 {
-height:365px;
-width:152px;
+height:313px;
+width:148px;
 }
 .panel_1 .back h4 {
 font-size:400%;
@@ -160,14 +160,14 @@ margin-top:-8px;
 font-size:120%;
 }
 .panel_2 {
-height:88px;
-top:371px;
-width:152px;
+height:73px;
+top:320px;
+width:147px;
 }
 .panel_3 {
-height:271px;
-left:158px;
-width:462px;
+height:231px;
+left:155px;
+width:447px;
 }
 .panel_3 .back h4 {
 font-size:500%;
@@ -177,10 +177,10 @@ margin-top:-10px;
 font-size:140%;
 }
 .panel_4 {
-height:182px;
-left:158px;
-top:277px;
-width:277px;
+height:156px;
+left:155px;
+top:237px;
+width:296px;
 }
 .panel_4 .back h4 {
 font-size:400%;
@@ -190,33 +190,33 @@ margin-top:-8px;
 font-size:120%;
 }
 .panel_5 {
-height:88px;
-left:441px;
-top:277px;
-width:178px;
+height:76px;
+left:455px;
+top:237px;
+width:147px;
 }
 .panel_6 {
-height:88px;
-left:441px;
-top:370px;
-width:178px;
+height:76px;
+left:455px;
+top:317px;
+width:147px;
 }
 .panel_7 {
-height:85px;
-left:626px;
+height:76px;
+left:608px;
 width:152px;
 }
 .panel_7 .back h4 {
 font-size:200%;
 margin-top:-4px;
 }
-.panel_7 .back p {
-font-size:90%;
+.panel_2.back p , .panel_5.back p , .panel_6 .back p , .panel_7 .back p {
+font-size:95%;
 }
 .panel_8 {
-height:367px;
-left:626px;
-top:91px;
+height:311px;
+left:608px;
+top:82px;
 width:152px;
 }
 .panel_8 .back h4 {
