@@ -56,19 +56,21 @@
 									</div>
 									<div class="back">
 										<h4>Reel</h4>
-										<p><a data-videoid="25354001" data-videodesc="Artifact's passionate bi-coastal team of directors, artists, and developers create on-target, design-driven content for a broad range of clients in the advertising, television, and entertainment industries. " data-videotitle="2011 Reel - Some of our tastiest work to date" href="http://vimeo.com/25666338" class="video">2011 Reel - Some of our tastiest work to date</a></p>
+										<p><a data-videoid="25354001" data-videodesc="Artifact's passionate bi-coastal team of directors, artists, and developers create on-target, design-driven content for a broad range of clients in the advertising, television, and entertainment industries. " data-videotitle="2011 Reel - Some of our tastiest work to date" href="http://vimeo.com/25666338" class="video">2011 Reel - Some of our tastiest work</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>						
 							</div>
+							
 							<div class="promo_panel panel_3">
 									<div class="front">
-										<img src="images/Conan_HomeThumb_NewGrid.jpg" alt="" /> 
+										<img src="images/HBO_Latino.jpg" alt="" /> 
 									</div>
 									<div class="back">
 										<h4>Work</h4>
-										<p><a data-videoid="36418245" data-videodesc="Conan O'Brien's team at TBS turned to Artifact to premier his new Team Coco App, bringing some retro-futuristic fun to all the glorious benefits of the application's features for your tablet or smart phone. Turner's Sponsor Shop gave us yet another excuse to have way too much fun at work." data-videotitle='TBS - Team Coco Tablet App' href="http://vimeo.com/36418245" class="video">TBS - Team Coco Tablet App</a></p>
+										<p><a data-videoid="37762462" data-videodesc="For our first collaboration with HBO Latino, we created an elegant, prism-inspired design package to tie the network's new shows and films together with an edgy yet sophisticated look." data-videotitle="HBO Latino - 2nd Quarter Design Package" href="http://vimeo.com/36418245" class="video">HBO Latino - 2nd Quarter Design Package 
+</a></p>
 										<span class="circle"><span class="arrow"></span></span>
-									</div>							
+									</div>						
 							</div>
 						
 							<div class="promo_panel panel_4">
@@ -88,38 +90,32 @@
 									</div>
 									<div class="back">
 										<h4>Work</h4>
-										<p><a class="video" href="http://vimeo.com/26775322" data-videotitle="Hasbro &quot;Star Wars Clone Wars&quot; Microsite" data-videodesc="A project that involves Star Wars Clone Wars AND super cool toys? Count us in! Our TV and Micro-Site designs for this Cartoon Network project feature stylized posters, creatively connecting the Blasters and the SWCW brands. " data-videoid="26775322">Hasbro "Star Wars Clone Wars" Microsite</a></p>
+										<p><a class="video" href="http://vimeo.com/26775322" data-videotitle="Hasbro &quot;Star Wars Clone Wars&quot; Microsite" data-videodesc="A project that involves Star Wars Clone Wars AND super cool toys? Count us in! Our TV and Micro-Site designs for this Cartoon Network project feature stylized posters, creatively connecting the Blasters and the SWCW brands. " data-videoid="26775322">Hasbro "Clone Wars" Microsite</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>								
 							</div>
 							<div class="promo_panel panel_6">
 									<div class="front">
-										<img src="images/8_CarlOpening.jpg" alt="" /> 
+										<img src="images/Home_CartoonSummer.jpg" alt="" /> 
 									</div>
 									<div class="back">
 										<h4>Work</h4>
-										<p><a data-videoid="30331490" data-videodesc="Opening title sequence for the motion picture CARL, a psychological thriller depicting a backwoods family with a dark secret. Produced by OOTC Productions and directed by Greg Daniel. " data-videotitle='"Carl" Opening Credits' href="http://vimeo.com/30331490" class="video">"Carl" Opening Credits</a></p>
+										<p><a data-videoid="34636419" data-videodesc='Thanks to Manu Muraro at Cartoon Network for hiring Artifact to direct and produce this hilarious campaign featuring The Box Hero Corps. The "Cartoon Summer 2012" spots are airing now on CNLA in Brazil (where it is indeed summer!). Live Action Production, Design, Editing, and Color Correction by Team Artifact.' data-videotitle='Cartoon Network Latin America - Cartoon Summer 2012' href="http://vimeo.com/34636419" class="video">Cartoon Network Latin America - Cartoon Summer 2012</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>						
 							</div>
 							<div class="promo_panel panel_7">
 									
 									
+									
 									<div class="front">
-										<img src="images/7_NEWS_WereMoving.jpg" alt="" /> 
+										<img src="images/Conan_HomeThumb_NewGrid.jpg" alt="" /> 
 									</div>
 									<div class="back">
-										<h4>News</h4>
-										<p><a href="" class="video">We're Moving!</a></p>
-										<span class="circle"><span class="news"><span class="border"></span><span class="border"></span><span class="border"></span></span></span>
-										<div class="news_content">
-											<div class="article">
-												<h2>We're Moving!</h2>
-												<p>We're saying goodbye to Abbot Kinney and all of it's gloriously eclectic people, shops, and restaurants and moving into our new bigger and better digs in Culver City as of December 1st. Very exciting! More pics and a housewarming party soon!</p>
-												<p><span class="img_src" src="images/News1_WeAreMoving.jpg" ></span></p>
-											</div>
-										</div>
-									</div>							
+										<h4>Work</h4>
+										<p><a data-videoid="36418245" data-videodesc="Conan O'Brien's team at TBS turned to Artifact to premier his new Team Coco App, bringing some retro-futuristic fun to all the glorious benefits of the application's features for your tablet or smart phone. Turner's Sponsor Shop gave us yet another excuse to have way too much fun at work." data-videotitle='TBS - Team Coco Tablet App' href="http://vimeo.com/36418245" class="video">TBS - Team Coco Tablet App</a></p>
+										<span class="circle"><span class="arrow"></span></span>
+									</div>								
 							</div>
 							<div class="promo_panel panel_8">
 									<div class="front">
