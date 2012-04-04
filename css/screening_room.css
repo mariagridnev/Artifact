@@ -60,17 +60,20 @@ list-style:none;
 border:6px solid #fff;
 float:left;
 height:120px;
-margin:0 15px 15px 0;
+margin:0 15px 0 0;
 overflow:hidden;
 position:relative;
 width:212px;
 }
-#screening li img {
-height:159px;
-margin-top:-79px;
-position:absolute;
-top:50%;
-width:212px;
+
+#screening li.single {
+height:390px;
+margin-top:10px;
+width:695px;
+}
+#screening li.single img {
+height:390px;
+width:695px;
 }
 
 

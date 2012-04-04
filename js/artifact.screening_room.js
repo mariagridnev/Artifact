@@ -36,7 +36,7 @@ artifact.screening = {
 		var screeningSource = '<h2>Screening Room <span class="albumName"></span></h2><ul class="clearfix">{list}</ul>';
 		
 		var listSource = '';
-
+		
 		$(data).each(function(){
 			listSource += artifact.substitute(linkTemplate,{ 
 				imgSource:this.thumbnails.thumbnail[1]._content,
@@ -44,7 +44,31 @@ artifact.screening = {
 				videoTitle:this.title.replace(/\x22/g, '&quot;'),
 				videoDescription:this.description.replace(/\x22/g, '&quot;')
 			});	
-			console.log(listSource);
+		});
+		
+		self.defaults.$container.hide();
+		self.defaults.$container.html(artifact.substitute(screeningSource,{'list':listSource}));
+		self.defaults.$container.fadeIn(500);
+		self._getAlbumName();
+		
+	},
+	
+	_writePromo:function(data) {	
+		var self = this;
+		
+		var linkTemplate = '<li class="single"><a class="video" href="http://vimeo.com/{videoId}" data-videotitle="{videoTitle}" data-videodesc="{videoDescription}" data-videoid="{videoId}"><img src="{imgSource}" alt="" border="0" /></a></li>';
+		
+		var screeningSource = '<ul class="clearfix">{list}</ul>';
+		
+		var listSource = '';
+		
+		$(data).each(function(){
+			listSource += artifact.substitute(linkTemplate,{ 
+				imgSource:this.thumbnails.thumbnail[2]._content,
+				videoId:this.id,
+				videoTitle:this.title.replace(/\x22/g, '&quot;'),
+				videoDescription:this.description.replace(/\x22/g, '&quot;')
+			});	
 		});
 		
 		self.defaults.$container.hide();
@@ -85,7 +109,15 @@ artifact.screening = {
 		var self = this;
 		
 		$.getJSON("http://www.artifactdesign.com/vimeo/index.php?album_id=" + self.albumID,function(data) {
-			self._writePage(data.videos.video);
+			console.log(data.videos.total);
+			
+			if(data.videos.total == '1') {
+				self._writePromo(data.videos.video);
+			}
+			else {
+				self._writePage(data.videos.video);
+			}
+			
 		});
 	}	
 }
