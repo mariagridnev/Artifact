@@ -67,19 +67,10 @@ width:212px;
 }
 
 #screening li.single {
-height:390px;
-margin-top:10px;
-width:695px;
+height:360px;
+margin:10px 0 0 20px;
+width:640px;
 }
-#screening li.single img {
-height:390px;
-width:695px;
-}
-
-
-
-
-
 
 .thin .container {
 margin-top:20px;

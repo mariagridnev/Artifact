@@ -37,6 +37,8 @@ artifact.screening = {
 		
 		var listSource = '';
 		
+		console.log(data);
+		
 		$(data).each(function(){
 			listSource += artifact.substitute(linkTemplate,{ 
 				imgSource:this.thumbnails.thumbnail[1]._content,
@@ -56,17 +58,21 @@ artifact.screening = {
 	_writePromos:function(data) {	
 		var self = this;
 		
-		var linkTemplate = '<li class="single"><iframe src="http://player.vimeo.com/video/{videoId}?color=ffffff" width="640" height="360" frameborder="0"></li>';
+		var linkTemplate = '<li class="single"><iframe src="http://player.vimeo.com/video/{videoId}?color=ffffff" width="640" height="360" frameborder="0"></iframe></li>';
 		
-		var screeningSource = '<ul class="clearfix">{list}</ul>';
+		var screeningSource = '<h2 style="margin-left:20px;">Screening Room</h2><ul class="clearfix">{list}</ul>';
 		
 		var listSource = '';
+		
+		
 		
 		$(data).each(function(){
 			listSource += artifact.substitute(linkTemplate,{ 
 				videoId:this.id
 			});	
 		});
+		
+		console.log(listSource);
 		
 		self.defaults.$container.hide();
 		self.defaults.$container.html(artifact.substitute(screeningSource,{'list':listSource}));
@@ -105,15 +111,20 @@ artifact.screening = {
 	_vimeoAPICall:function() {
 		var self = this;
 		
-		$.getJSON("http://www.artifactdesign.com/vimeo/index.php?album_id=" + self.albumID,function(data) {
+		$.getJSON("vimeo/index.php?album_id=" + self.albumID,function(data) {
 			
 			self.pageType = artifact.url.getParam('type');
 			
-			if(self.pageType == 'iframe') {
-				self._writePromos(data.videos.video);
+			if(typeof(data.videos) == 'undefined') {
+				self.defaults.$container.html(artifact.substitute(self.defaults.errorDiv,{'error':'Sorry, there was an error with your URL'}));
 			}
 			else {
-				self._writePage(data.videos.video);
+				if(self.pageType == 'iframe') {
+					self._writePromos(data.videos.video);
+				}
+				else {
+					self._writePage(data.videos.video);
+				}
 			}
 			
 		});
