@@ -53,10 +53,10 @@ artifact.screening = {
 		
 	},
 	
-	_writePromo:function(data) {	
+	_writePromos:function(data) {	
 		var self = this;
 		
-		var linkTemplate = '<li class="single"><a class="video" href="http://vimeo.com/{videoId}" data-videotitle="{videoTitle}" data-videodesc="{videoDescription}" data-videoid="{videoId}"><img src="{imgSource}" alt="" border="0" /></a></li>';
+		var linkTemplate = '<li class="single"><iframe src="http://player.vimeo.com/video/{videoId}?color=ffffff" width="640" height="360" frameborder="0"></li>';
 		
 		var screeningSource = '<ul class="clearfix">{list}</ul>';
 		
@@ -64,10 +64,7 @@ artifact.screening = {
 		
 		$(data).each(function(){
 			listSource += artifact.substitute(linkTemplate,{ 
-				imgSource:this.thumbnails.thumbnail[2]._content,
-				videoId:this.id,
-				videoTitle:this.title.replace(/\x22/g, '&quot;'),
-				videoDescription:this.description.replace(/\x22/g, '&quot;')
+				videoId:this.id
 			});	
 		});
 		
@@ -109,10 +106,11 @@ artifact.screening = {
 		var self = this;
 		
 		$.getJSON("http://www.artifactdesign.com/vimeo/index.php?album_id=" + self.albumID,function(data) {
-			console.log(data.videos.total);
 			
-			if(data.videos.total == '1') {
-				self._writePromo(data.videos.video);
+			self.pageType = artifact.url.getParam('type');
+			
+			if(self.pageType == 'iframe') {
+				self._writePromos(data.videos.video);
 			}
 			else {
 				self._writePage(data.videos.video);
