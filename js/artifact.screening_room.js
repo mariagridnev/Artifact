@@ -36,9 +36,7 @@ artifact.screening = {
 		var screeningSource = '<h2>Screening Room <span class="albumName"></span></h2><ul class="clearfix">{list}</ul>';
 		
 		var listSource = '';
-		
-		console.log(data);
-		
+				
 		$(data).each(function(){
 			listSource += artifact.substitute(linkTemplate,{ 
 				imgSource:this.thumbnails.thumbnail[1]._content,
@@ -58,26 +56,27 @@ artifact.screening = {
 	_writePromos:function(data) {	
 		var self = this;
 		
-		var linkTemplate = '<li class="single"><iframe src="http://player.vimeo.com/video/{videoId}?color=ffffff" width="640" height="360" frameborder="0"></iframe></li>';
+		var linkTemplate = '<li id="video{videoId}" class="single"><iframe src="http://player.vimeo.com/video/{videoId}?color=ffffff" width="640" height="360" frameborder="0"></iframe></li>';
 		
 		var screeningSource = '<h2 style="margin-left:20px;">Screening Room</h2><ul class="clearfix">{list}</ul>';
 		
 		var listSource = '';
-		
-		
 		
 		$(data).each(function(){
 			listSource += artifact.substitute(linkTemplate,{ 
 				videoId:this.id
 			});	
 		});
-		
-		console.log(listSource);
-		
+				
 		self.defaults.$container.hide();
 		self.defaults.$container.html(artifact.substitute(screeningSource,{'list':listSource}));
 		self.defaults.$container.fadeIn(500);
 		self._getAlbumName();
+		
+		var scrollId = artifact.url.getParam('dl');
+		if(typeof(scrollId) != 'undefined') {		
+			$.scrollTo('#video' + scrollId);
+		}
 		
 	},
 	
