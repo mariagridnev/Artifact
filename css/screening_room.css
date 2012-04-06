@@ -65,6 +65,13 @@ overflow:hidden;
 position:relative;
 width:212px;
 }
+#screening li img {
+height:159px;
+margin-top:-79px;
+position:absolute;
+top:50%;
+width:212px;
+}
 
 #screening li.single {
 height:360px;
