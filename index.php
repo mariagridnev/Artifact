@@ -156,6 +156,24 @@
 			<div class="panels flexslider">
 				<ul class="slides">
 				
+					<div class="news_item clearfix" id="webby">
+						<div class="news_image"><span class="img_src" src="images/news_thumb_webby.jpg" alt="" border="0" ></span></div>
+						<div class="news_desc">
+							<h4>Webby Awards Honoree <span>April 11, 2012</span></h4>
+							<p>On the heels of winning an ADDY for BBDO's "REI Headline Hiker" ad, we're thrilled that the piece has also been selected as an Official Honoree of the 16th Annual Webby Awards in the Banner Campaigns category. </p>	
+							<p class="more"><a href="">More ...</a>			
+						</div>	
+						<div class="news_content">
+							<div class="article">
+								<h2>Webby Awards Honoree</h2>
+								<p>On the heels of winning an ADDY for BBDO's "REI Headline Hiker" ad, we're thrilled that the piece has also been selected as an Official Honoree of the 16th Annual Webby Awards in the Banner Campaigns category. Artifact handled all production, post, and development for this great page takeover concept, check it out below…</p>
+								
+								<p><iframe data-src="http://player.vimeo.com/video/26080799?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+								
+							</div>
+						</div>				
+					</div>
+				
 					<div class="news_item clearfix" id="addy-awards">
 						<div class="news_image"><span class="img_src" src="images/NewsThumb_Addy.jpg" alt="" border="0" ></span></div>
 						<div class="news_desc">
