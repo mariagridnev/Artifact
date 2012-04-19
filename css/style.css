@@ -1004,13 +1004,13 @@ margin:0 auto;
 width:100%;
 }
 .mini .panels {
-margin:0px;
+margin:0 0 0 20px;
 top:80px;
 width: 300px;
 }
 .mini #home .panels {
 height:440px;
-margin-left: 0px;
+margin-left: 8px;
 margin-top: 0px;
 }
 .mini .promo_panel {
