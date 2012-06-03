@@ -19,7 +19,7 @@
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 
 	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/screening_room.css">
+	<link rel="stylesheet" href="css/invite.css">
 	
 	<script src="js/libs/modernizr-2.0.6.min.js"></script>
 
@@ -36,9 +36,13 @@
 			<a href="http://www.artifactdesign.com#connect" data-link="connect" title="Connect">Connect</a>
 		</nav>
 		
-		<div id="screening" style="padding:30px 25px 30px 25px;">
+		<div id="screening">
 			<div class="content" style="text-align:center;">
-				<img src="images/Artifact_Promax_Invite_2012.jpg" alt="Invite" />
+				<img src="images/Artifact_Promax_Invite_2012_top.jpg" alt="Invite" />
+				<a href="http://maps.google.com/maps?q=the+edison,+los+angeles,+ca&hl=en&sll=37.0625,-95.677068&sspn=44.118686,89.033203&hnear=Edison,+108+W+2nd+St,+Los+Angeles,+California+90012&t=m&z=16" target="_blank"><img src="images/Artifact_Promax_Invite_2012_address.jpg" alt="Invite" /></a>
+				<img src="images/Artifact_Promax_Invite_2012_date.jpg" alt="Invite" />
+				<a href="mailto:amy@artifactdesign.com" target="_blank"><img src="images/Artifact_Promax_Invite_2012_email.jpg" alt="Invite" /></a>
+				<img src="images/Artifact_Promax_Invite_2012_bottom.jpg" alt="Invite" />
 			</div>
 		</div> 
 	</div>
