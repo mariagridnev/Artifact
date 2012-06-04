@@ -1,6 +1,6 @@
 
-$(function(){ 
-		  		   
+$(function(){
+				   
 /* =============================================================================
    Newsletter Form
    ========================================================================== */
@@ -11,7 +11,7 @@ $(function(){
 		if (!email.match(/^([a-z0-9._-]+@[a-z0-9._-]+\.[a-z]{2,4}$)/i)) {
 			alert('Please enter a valid email address');
 			return false;
-		}	
+		}
 		
 		var postData = 'email=' + email;
 		
@@ -37,7 +37,7 @@ $(function(){
 	});
 		   
 /* =============================================================================
-   Scrolling. Need to clean up and create into functions/events 
+   Scrolling. Need to clean up and create into functions/events
    ========================================================================== */
 		
 	$('body').on('click','nav a',function(){
@@ -54,16 +54,16 @@ $(function(){
 				$('html').removeClass('moving');
 				window.location.hash = whereToScroll;
 			}
-		}
+		};
 		
-		if(((whereToScroll == '#news') && ((window.location.hash == '') || (window.location.hash == '#home'))) || (whereToScroll == '#home')) {
+		if(((whereToScroll === '#news') && ((window.location.hash === '') || (window.location.hash === '#home'))) || (whereToScroll === '#home')) {
 			settings.duration = 2000;
 		}
 		
 		$('html').addClass('moving');
 		
 		// create dynamic pageview call
-		_gaq.push(['_trackPageview', whereToScroll])
+		_gaq.push(['_trackPageview', whereToScroll]);
 		
 		$.scrollTo(whereToScroll,settings);
 		
@@ -98,14 +98,14 @@ $(function(){
 	// create the flex slider
 	$('#news .flexslider').flexslider({
 				animation: 'slide',              //String: Select your animation type, "fade" or "slide"
-				slideshow: false, 
+				slideshow: false,
 				prevText: '<span class="arrow left">Previous</span>',           //String: Set the text for the "previous" directionNav item
 				nextText: '<span class="arrow right">Next</span>'
 	});
 	
 /* =============================================================================
    Video links for the homepage, work panels
-   ========================================================================== */		
+   ========================================================================== */
 	$('#home_content .promo_panel .back').click(function(){
 		var _cbHTML = '';
 		if($(this).find('.video').length > 0) {
@@ -121,11 +121,11 @@ $(function(){
 			_cbWidth = '98%';
 		}
 		
-		if (_cbHTML != '') {
+		if (_cbHTML !== '') {
 			$.colorbox({close:'<img src="images/overlay_close.png" alt="Close" border="0" />', width:_cbWidth, transition: 'none', scrolling: false, html: _cbHTML, onComplete: function(){$('#colorbox').hide(); $('#colorbox').fadeIn(500); }});
 		}
 		else {
-			window.open($(this).find('a').attr('href'));	
+			window.open($(this).find('a').attr('href'));
 		}
 		return false;
 	});
@@ -149,7 +149,7 @@ $(function(){
 			
 		$(this).find('.news_content').find('iframe').each(function(){
 			$(this).attr('src',$(this).data('src'));
-		}); 
+		});
 		
 		var _cbHTML = $(this).find('.news_content').html();
 				
@@ -159,13 +159,13 @@ $(function(){
 			_cbWidth = '98%';
 		}
 		
-		$.colorbox({close:'<img src="images/overlay_close.png" alt="Close" border="0" />', width:_cbWidth, transition: 'none', scrolling: false, html: _cbHTML});								
+		$.colorbox({close:'<img src="images/overlay_close.png" alt="Close" border="0" />', width:_cbWidth, transition: 'none', scrolling: false, html: _cbHTML});
 		return false;
 	});
 	
 	artifact.newsDeepLink = artifact.url.getParam('news');
 	
-	if(artifact.newsDeepLink != undefined) {		
+	if(artifact.newsDeepLink !== undefined) {
 		$.colorbox({close:'<img src="images/overlay_close.png" alt="Close" border="0" />', width:200, transition: 'none', scrolling: false, html: '<div class="loading"></div>'});
 		$('#cboxOverlay').css('height','100%');
 		$('#cboxOverlay').css('position','fixed');
@@ -174,7 +174,7 @@ $(function(){
 
 	
 /* =============================================================================
-   Create the work page from the vimeo APIs. We are making 
+   Create the work page from the vimeo APIs. We are making
    ========================================================================== */
       
    createWorkPage = {
@@ -189,7 +189,7 @@ $(function(){
 	   
    },
    
-   	itemTemplate:'<div class="work_item"><div class="front"><img src="{imgSource}" alt="" border="0" width="212" height="159" /></div><div class="back"><h5><a class="video" href="http://vimeo.com/{videoId}" data-videotitle="{videoTitle}" data-videodesc="{videoDescription}" data-videoid="{videoId}">{videoTitle}</a></h5><span class="circle"><span class="arrow"></span></span></div></div>',
+   itemTemplate:'<div class="work_item"><div class="front"><img src="{imgSource}" alt="" border="0" width="212" height="159" /></div><div class="back"><h5><a class="video" href="http://vimeo.com/{videoId}" data-videotitle="{videoTitle}" data-videodesc="{videoDescription}" data-videoid="{videoId}">{videoTitle}</a></h5><span class="circle"><span class="arrow"></span></span></div></div>',
          
    _assignClickHandler:function(){
 	   
@@ -199,7 +199,7 @@ $(function(){
 	   
 	   $('#work .tags li').click(function(){
 			self.albumID = $(this).data('albumid');
-	    	self.writePage();
+			self.writePage();
 			$('#work .tags li').removeClass('active');
 			$(this).addClass('active');
 		
@@ -209,13 +209,13 @@ $(function(){
 				return false;
 			});
 		
-	  		return false;				   
+			return false;
 	  });
 	   
    },
    
    writePage:function(){
-	   	   
+
 	   var self = this;
 	   self.itemSource = '<li class="panel clearfix">';
 	   self.counter = 0;
@@ -232,12 +232,13 @@ $(function(){
 		$.getJSON("http://www.artifactdesign.com/vimeo/index.php?album_id=" + self.albumID,function(data) {
 			$(data.videos.video).each(function(i){
 					
-					self.itemSource += artifact.substitute(self.itemTemplate,{ 
+					self.itemSource += artifact.substitute(self.itemTemplate,{
 						imgSource:this.thumbnails.thumbnail[1]._content,
 						videoId:this.id,
 						videoTitle:this.title.replace(/\x22/g, '&quot;'),
 						videoDescription:this.description.replace(/\x22/g, '&quot;')
-					});	
+					});
+
 					if (((i+1)%9 === 0) && ((i+1) != 27)) {
 						self.itemSource += '</li><li class="panel clearfix">';
 					}
@@ -255,7 +256,7 @@ $(function(){
 			
 			$('#work .flexslider').flexslider({
 				animation: 'slide',              //String: Select your animation type, "fade" or "slide"
-				slideshow: false, 
+				slideshow: false,
 				prevText: '<span class="arrow left">Previous</span>',           //String: Set the text for the "previous" directionNav item
 				nextText: '<span class="arrow right">Next</span>'
 			});
@@ -265,9 +266,9 @@ $(function(){
 
    }
 
-}
+};
    
-$(window).bind('action', function(){ 
+$(window).bind('action', function(){
 	$(document).ready(function() {
 		createWorkPage.init();
 	});
@@ -282,7 +283,7 @@ $(window).bind('action', function(){
 		if($(this).width() > 0) {
 			image_source += 'width="' + $(this).width() + '" ';
 		}
-		if($(this).height() > 0) { 
+		if($(this).height() > 0) {
 			image_source += 'height="' + $(this).height() + '" ';
 		}
 		
@@ -304,7 +305,7 @@ $(window).load(function(){
 		if($(this).width() > 0) {
 			image_source += 'width="' + $(this).width() + '" ';
 		}
-		if($(this).height() > 0) { 
+		if($(this).height() > 0) {
 			image_source += 'height="' + $(this).height() + '" ';
 		}
 		
@@ -314,10 +315,10 @@ $(window).load(function(){
 		
 		$(this).before(image_source);
 		$(this).remove();
-	});	
+	});
 		
 			
-	if(artifact.newsDeepLink != undefined) {
+	if(artifact.newsDeepLink !== undefined) {
 			
 		$('#' + artifact.newsDeepLink + ' span.img_src').each(function(){
 			var image_source = '<img ';
@@ -326,7 +327,7 @@ $(window).load(function(){
 			if($(this).width() > 0) {
 				image_source += 'width="' + $(this).width() + '" ';
 			}
-			if($(this).height() > 0) { 
+			if($(this).height() > 0) {
 				image_source += 'height="' + $(this).height() + '" ';
 			}
 			
@@ -336,11 +337,11 @@ $(window).load(function(){
 			
 			$(this).before(image_source);
 			$(this).remove();
-		});	
+		});
 		
 		$('#' + artifact.newsDeepLink).find('.news_content').find('iframe').each(function(){
 			$(this).attr('src',$(this).data('src'));
-		}); 
+		});
 		
 		var _cbHTML = $('#' + artifact.newsDeepLink).find('.news_content').html();
 				
@@ -353,20 +354,20 @@ $(window).load(function(){
 		// grab all the images that are in the deep linked news story and put them in an array
 		var images = new Array;
 		$('#' + artifact.newsDeepLink).find('.news_content').find('img').each(function(){
-			images.push($(this).attr('src'));																		   
+			images.push($(this).attr('src'));
 		});
 
-		// make sure they are all loaded before we open up the hover to make sure we size it correctly		
+		// make sure they are all loaded before we open up the hover to make sure we size it correctly
 		if(images.length > 0) {
 		$.xLazyLoader({
 			 image: images,
 			 load: function(){
-				$.colorbox({close:'<img src="images/overlay_close.png" alt="Close" border="0" />', width:_cbWidth, transition: 'none', scrolling: false, html: _cbHTML}); 
+				$.colorbox({close:'<img src="images/overlay_close.png" alt="Close" border="0" />', width:_cbWidth, transition: 'none', scrolling: false, html: _cbHTML});
 			 }
 		 });
 		}
 		else {
-			$.colorbox({close:'<img src="images/overlay_close.png" alt="Close" border="0" />', width:_cbWidth, transition: 'none', scrolling: false, html: _cbHTML}); 
+			$.colorbox({close:'<img src="images/overlay_close.png" alt="Close" border="0" />', width:_cbWidth, transition: 'none', scrolling: false, html: _cbHTML});
 		}
 												
 		return false;
@@ -387,16 +388,16 @@ $(document).ready(function() {
 
 	//apply the class "inview" to a section that is in the viewport
 	$('#home, #news, #work, #connect').bind('inview', function (event, visible) {
-		if (visible == true) {
+		if (visible === true) {
 			$(this).addClass("inview");
 			
-			if (artifact.useragent.getType() == 'desktop') { 
+			if (artifact.useragent.getType() == 'desktop') {
 				$('nav a').removeClass('active');
 				$('nav a[href=#' + $(this).attr('id') + ']').addClass('active');
 			}
 			
 			// create dynamic pageview call
-			_gaq.push(['_trackPageview', '#' + $(this).attr('id')])
+			_gaq.push(['_trackPageview', '#' + $(this).attr('id')]);
 			
 		} else {
 			$(this).removeClass("inview");
@@ -409,14 +410,14 @@ $(document).ready(function() {
 		var windowWidth = $window.width();
 		var windowHeight = $window.height();
 		
-		var horizonalCenter = (windowWidth / 2);  
+		var horizonalCenter = (windowWidth / 2);
 		
 		var navHeight = $('nav').height() / 2;
-		var windowCenter = (windowHeight / 2); 
+		var windowCenter = (windowHeight / 2);
 		
 		if (artifact.displayWidth.whatSize() == 'full') {
-			if ((horizonalCenter-465) > 0) { 
-				$('nav').css({"left": horizonalCenter-465}); 
+			if ((horizonalCenter-465) > 0) {
+				$('nav').css({"left": horizonalCenter-465});
 			}
 			if (windowHeight > 650) {
 				$('nav').css({"top": (windowCenter-navHeight-80)});
@@ -541,7 +542,7 @@ $(document).ready(function() {
 		}
 	
 	//function that is called for every pixel the user scrolls. Determines the position of the background
-	/*arguments: 
+	/*arguments:
 		x = horizontal position of background
 		windowHeight = height of the viewport
 		pos = position of the scrollbar
@@ -553,7 +554,7 @@ $(document).ready(function() {
 	}
 	
 	//function to be called whenever the window is scrolled or resized
-	function Move(){ 
+	function Move(){
 	
 		if (artifact.useragent.getType() == 'desktop') {
 			var pos = $window.scrollTop(); //position of the scrollbar
@@ -561,7 +562,7 @@ $(document).ready(function() {
 			//if the first section is in view...
 			if($firstBG.hasClass("inview")){
 				//call the newPos function and change the background position
-				$firstBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 400, 0.6)});  
+				$firstBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 400, 0.6)});
 			}
 			
 			//if the second section is in view...
@@ -590,7 +591,7 @@ $(document).ready(function() {
 			createWorkPage.init(); // rebuild the vimeo slideshow
 	
 			setTimeout(artifact.displayWidth.setBodyClasses,100); // set the body display class instead of using media queries, as we want to rely on the same exact number
-		}
+		};
 	}
 	else {
 		var timeout = false;
@@ -605,10 +606,10 @@ $(document).ready(function() {
 			}
 
 			if(timeout !== false) {
-   				clearTimeout(timeout);
+				clearTimeout(timeout);
 			}
 			timeout = setTimeout(rewriteWorkPage, 500);
- 		});	
+		});
 	}
 
 	$window.bind('scroll', function(){ //when the user is scrolling...
@@ -630,7 +631,7 @@ $(document).ready(function() {
 		$('#connect nav a:eq(4)').addClass('active');
 	}
 		
-	if ((artifact.displayWidth.whatSize() == 'mini' || artifact.displayWidth.whatSize() == 'small') || (artifact.useragent.getType() != 'desktop')) { 
+	if ((artifact.displayWidth.whatSize() === 'mini' || artifact.displayWidth.whatSize() === 'small') || (artifact.useragent.getType() !== 'desktop')) {
 		cloneNav();
 	}
 	

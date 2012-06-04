@@ -76,11 +76,11 @@
 							<div class="promo_panel panel_4">
 									
 									<div class="front">
-										<img src="images/6_FordSD_Steelers_Rant.jpg" alt="" /> 
+										<img src="images/FloridaCitrus_homeThumb.jpg" alt="" /> 
 									</div>
 									<div class="back">
 										<h4>Work</h4>
-										<p><a data-videoid="32970717" data-videodesc="" data-videotitle='Ford SuperDuty "Steelers Rant"' href="http://vimeo.com/32970717" class="video">Ford Super Duty <br/>"Steelers Rant"</a></p>
+										<p><a data-videoid="40966485" data-videodesc="" data-videotitle='Florida Citrus "Take On the Day" Rich Media' href="http://vimeo.com/40966485" class="video">Florida Citrus "Take On the Day" Rich Media</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
@@ -369,8 +369,10 @@
 						</div>
 					</div>
 					<div class="email">
-						<h5>Email <span>Amy Palmer</span>: </h5>
-						<p><a href="mailto:amy@artifactdesign.com">amy@artifactdesign.com</a></p>
+						<h5>For jobs/internship inquiries, email Stephanie Melstrom: <a href="mailto:stephanie@artifactdesign.com">stephanie@artifactdesign.com</a></h5>
+						
+						<h5>For everything else, email Amy Palmer: <a href="mailto:amy@artifactdesign.com">amy@artifactdesign.com</a></h5>
+						
 					</div>
 					<div class="keep_up">
 						<h5>Keep Up:</h5>

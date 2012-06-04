@@ -625,14 +625,11 @@ text-decoration:underline;
 #connect .email, #connect .keep_up {
 margin:30px 0;
 }
-#connect .email h5, #connect .email p {
-display:inline;	
-}
-#connect .email h5 span {
-text-transform:none;
+#connect .email h5 {
+margin-bottom:10px;
 }
 #connect .email h5, #connect .keep_up h5 {
-text-transform:uppercase;
+text-transform:none;
 }
 
 
