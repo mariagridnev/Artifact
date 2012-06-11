@@ -140,6 +140,41 @@
 		<div class="offset">
 			<div class="panels flexslider">
 				<ul class="slides">
+
+					<div class="news_item clearfix" id="elbow-room">
+						<div class="news_image"><span class="img_src" src="images/NewsThumb_ElbowRm_1.jpg" alt="" border="0" ></span></div>
+						<div class="news_desc">
+							<h4>Debut of Elbow Room <span>May 11, 2012</span></h4>
+							<p>Tune in to HGTV tomorrow (Saturday 5/12) at 1pm for the debut of Elbow Room.</p>	
+							<p class="more"><a href="">More ...</a>		
+						</div>	
+						<div class="news_content">
+							<div class="article">
+								<h2>Debut of Elbow Room</h2>
+								<p>Artifact designed the show logo, show open, and graphics package for this great new home makeover series featuring our friends Chip Wade and Stephen Evans. </p>
+								<p><a target="_blank" href="https://www.facebook.com/HGTVelbowroom">https://www.facebook.com/HGTVelbowroom</a></p>
+								<p><img src="images/News_ElbowRoom.jpg" alt="" /></p>
+							</div>
+						</div>						
+					</div>
+
+
+
+					<div class="news_item clearfix" id="wedding">
+						<div class="news_image"><span class="img_src" src="images/wedding_news.jpg" alt="" border="0" ></span></div>
+						<div class="news_desc">
+							<h4>Congrats Paco Vergachette <span>April 23, 2012</span></h4>
+							<p>Congrats to our designer Paco Vergachette and his beautiful bride Lucha Rodriguez</p>
+							<p class="more"><a href="">More ...</a>			
+						</div>	
+						<div class="news_content">
+							<div class="article">
+								<h2>Congrats Paco Vergachette</h2>
+								<p>Congrats to our designer Paco Vergachette and his beautiful bride Lucha Rodriguez who eloped to Vegas this weekend! Marriage rocks! All you need is love...</p>
+								<p><img src="images/wedding_story.jpg" alt="" /></p>
+							</div>
+						</div>				
+					</div>
 				
 					<div class="news_item clearfix" id="webby">
 						<div class="news_image"><span class="img_src" src="images/news_thumb_webby.jpg" alt="" border="0" ></span></div>
@@ -274,37 +309,7 @@
 						</div>
 						
 					
-						<div class="news_item clearfix" id="leaving-la-floresta">
-							<div class="news_image"><span class="img_src" src="images/news_3.jpg" alt="" border="0" ></span></div>
-							<div class="news_desc">
-								<h4>Leaving La Floresta <span>September 17, 2011</span></h4>
-								<p>As a personal project, our designer Paco Vergachette created the logo, titles, and design elements for Leaving La Floresta. </p>	
-								<p class="more"><a href="">More ...</a>		
-							</div>	
-							<div class="news_content">
-								<div class="article">
-									<h2>Leaving La Floresta</h2>
-									<p>As a personal project, our designer Paco Vergachette created the logo, titles, and design elements for Leaving La Floresta, a documentary by non-profit organization Give Us Names about the displacement of farmers in Colombia due to US fumigations. The graphics are an integral part of telling the story by visually defining the problems, the solution and what people could do to help the cause. Fabulous work (for a great cause), Paco! </p>
-									<p><iframe data-src="http://player.vimeo.com/video/28982634?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
-									<p><iframe data-src="http://player.vimeo.com/video/18139619?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
-								</div>
-							</div>						
-						</div>
-						<div class="news_item clearfix" id="green-hornet">
-							<div class="news_image"><span class="img_src" src="images/news_5.jpg" alt="" border="0" ></span></div>
-							<div class="news_desc">
-								<h4>Green Hornet Wins TELLY Awards <span>July 8, 2011</span></h4>
-								<p>Congrats to Karen Hutchinson and her team at The Sponsor Shop for two 2011 Bronze TELLY wins for the "TBS Green Hornet Cross Promotion" project! </p>
-								<p class="more"><a href="">More ...</a>			
-							</div>	
-							<div class="news_content">
-								<div class="article">
-									<h2>Green Hornet Wins TELLY Awards</h2>
-									<p>Congrats to Karen Hutchinson and her team at The Sponsor Shop for two 2011 Bronze TELLY wins for the "TBS Green Hornet Cross Promotion" project! Original Animation by the Artifact Team! You can check out some of the work here: </p>
-									<p><iframe data-src="http://player.vimeo.com/video/30926383?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
-								</div>
-							</div>				
-						</div>
+						
 						
 				
 				</ul>
