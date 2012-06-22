@@ -141,6 +141,25 @@
 			<div class="panels flexslider">
 				<ul class="slides">
 
+					
+
+					<div class="news_item clearfix" id="summer-bumps">
+							<div class="news_image"><span class="img_src" src="images/NewsThumb_Promax.jpg" alt="" border="0" ></span></div>
+							<div class="news_desc">
+								<h4>CNLA and Artifact win Gold for Summer Bumps Campaign <span>June 15, 2012</span></h4>
+								<p>Congratulations to Manu Muraro, Hernán Le Greca and Michele Slater at Cartoon Network Latin America for their "Summer Bumps" campaign.</p>	
+								<p class="more"><a href="">More ...</a>	
+							</div>		
+							<div class="news_content">
+								<div class="article">
+									<h2>CNLA and Artifact win Gold for Summer Bumps Campaign</h2>
+									<p>Congratulations to Manu Muraro, Hernán Le Greca and Michele Slater at Cartoon Network Latin America for their "Summer Bumps" campaign winning a Gold at the 2012 PROMAX/BDA PROMOTION & MARKETING awards show for best Holiday/Special Event promotion. The campaign also won a Bronze award in the "General Entertainment: Bumper" category at the 2012 PROMAX/BDA DESIGN GLOBAL EXCELLENCE awards.</p>
+									<p>The spots were Directed by Artifact's Pat McNeely who also oversaw Design, Animation, Edit and Color Correction at Artifact's Atlanta studio. Huge props to Stephen Larkworthy and his Box Hero Corps as well!</p>
+									<p><a href="http://www.artifactdesign.com/screening_room.php?id=1977773&type=iframe&dl=1918269">Click here to check it out...</a></p>
+								</div>
+							</div>					
+						</div>
+
 					<div class="news_item clearfix" id="elbow-room">
 						<div class="news_image"><span class="img_src" src="images/NewsThumb_ElbowRm_1.jpg" alt="" border="0" ></span></div>
 						<div class="news_desc">
@@ -292,25 +311,6 @@
 							</div>
 						</div>				
 					</div>
-						<div class="news_item clearfix" id="halloween-contest">
-							<div class="news_image"><span class="img_src" src="images/news_2.jpg" alt="" border="0" ></span></div>
-							<div class="news_desc">
-								<h4>Halloween Costume Contest <span>October 31, 2011</span></h4>
-								<p>Congrats to Jeff Wyner, one of our Designer/Animators in Atlanta, for winning the 2011 Artifact Halloween costume contest.</p>	
-								<p class="more"><a href="">More ...</a>	
-							</div>		
-							<div class="news_content">
-								<div class="article">
-									<h2>Halloween Costume Contest</h2>
-									<p>Congrats to Jeff Wyner, one of our Designer/Animators in Atlanta, for winning the 2011 Artifact Halloween costume contest. Check out Jeff's fabulous rendition of Humpty Hump here and remember...The Humpty Dance is your chance to do the hump.</p>
-									<p><span class="img_src" src="images/News2_Halloween.jpg" alt="" ></span></p>
-								</div>
-							</div>					
-						</div>
-						
-					
-						
-						
 				
 				</ul>
 			</div>
