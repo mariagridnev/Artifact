@@ -42,11 +42,12 @@
 					<div class="panel_grid clearfix">
 							<div class="promo_panel panel_1">
 								<div class="front">
-									<img src="images/4_REI_Unpacker.jpg" alt="" /> 
+									<img src="images/Window1.jpg" alt="" /> 
 								</div>
 								<div class="back">
-									<h4>Work</h4>
-									<p><a data-videoid="31553417" data-videodesc="As part of REI's Fall 2011 online campaign for BBDO Atlanta, we created a series of expanding rich media banners featuring a hiker who is uber-connected with nature. " data-videotitle='REI "Unpack" Rich Media Banner' href="http://vimeo.com/31553417" class="video">REI "Unpack" Rich Media Banner</a></p>
+									<h4>Watch</h4>
+									<p><a data-videoid="42583181" data-videodesc="Before Instagram, there was Flashcube for Kodak Instamatic Cameras. A short experimental commercial using audio from a 1960s Kodak commercial. It's Flashcube! Designed/animated by Artifact Senior Designer Christina Maloney.
+(mono) Audio used from public domain at archive.org" data-videotitle="Kodak Flashcube" href="http://vimeo.com/42583181" class="video">Kodak Flashcube</a></p>
 									<span class="circle"><span class="arrow"></span></span>
 								</div>							
 							</div>
@@ -63,12 +64,11 @@
 							
 							<div class="promo_panel panel_3">
 									<div class="front">
-										<img src="images/HBO_Latino.jpg" alt="" /> 
+										<img src="images/Window3.jpg" alt="" /> 
 									</div>
 									<div class="back">
-										<h4>Work</h4>
-										<p><a data-videoid="37762462" data-videodesc="For our first collaboration with HBO Latino, we created an elegant, prism-inspired design package to tie the network's new shows and films together with an edgy yet sophisticated look." data-videotitle="HBO Latino - 2nd Quarter Design Package" href="http://vimeo.com/36418245" class="video">HBO Latino - 2nd Quarter Design Package 
-</a></p>
+										<h4>Watch</h4>
+										<p><a data-videoid="39794640" data-videodesc="" data-videotitle='Cartoon Network - "Can We" Gumball Takeover' href="http://vimeo.com/39794640" class="video">Cartoon Network - "Can We" Gumball Takeover</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>						
 							</div>
@@ -76,31 +76,31 @@
 							<div class="promo_panel panel_4">
 									
 									<div class="front">
-										<img src="images/FloridaCitrus_homeThumb.jpg" alt="" /> 
+										<img src="images/Window4.jpg" alt="" /> 
 									</div>
 									<div class="back">
-										<h4>Work</h4>
-										<p><a data-videoid="40966485" data-videodesc="" data-videotitle='Florida Citrus "Take On the Day" Rich Media' href="http://vimeo.com/40966485" class="video">Florida Citrus "Take On the Day" Rich Media</a></p>
+										<h4>Watch</h4>
+										<p><a data-videoid="42557527" data-videodesc="" data-videotitle='FKQ - McDonald&rsquo;s "Busy Mom"' href="http://vimeo.com/42557527" class="video">FKQ - McDonald's "Busy Mom"</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
 							<div class="promo_panel panel_5">
 									<div class="front">
-										<img src="images/9_Hasbro_SWCW.jpg" alt=""> 
+										<img src="images/Window5.jpg" alt=""> 
 									</div>
 									<div class="back">
-										<h4>Work</h4>
-										<p><a class="video" href="http://vimeo.com/26775322" data-videotitle="Hasbro &quot;Star Wars Clone Wars&quot; Microsite" data-videodesc="A project that involves Star Wars Clone Wars AND super cool toys? Count us in! Our TV and Micro-Site designs for this Cartoon Network project feature stylized posters, creatively connecting the Blasters and the SWCW brands. " data-videoid="26775322">Hasbro "Clone Wars" Microsite</a></p>
+										<h4>Watch</h4>
+										<p><a class="video" href="http://vimeo.com/36418245" data-videotitle="TBS - Team Coco Tablet App" data-videodesc="Conan O'Brien's team at TBS turned to Artifact to premier his new Team Coco App, bringing some retro-futuristic fun to all the glorious benefits of the application's features for your tablet or smart phone. Turner's Sponsor Shop gave us yet another excuse to have way too much fun at work." data-videoid="36418245">TBS - Team Coco Tablet App</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>								
 							</div>
 							<div class="promo_panel panel_6">
 									<div class="front">
-										<img src="images/Home_CartoonSummer.jpg" alt="" /> 
+										<img src="images/Window6.jpg" alt="" /> 
 									</div>
 									<div class="back">
-										<h4>Work</h4>
-										<p><a data-videoid="34636419" data-videodesc='Thanks to Manu Muraro at Cartoon Network for hiring Artifact to direct and produce this hilarious campaign featuring The Box Hero Corps. The "Cartoon Summer 2012" spots are airing now on CNLA in Brazil (where it is indeed summer!). Live Action Production, Design, Editing, and Color Correction by Team Artifact.' data-videotitle='Cartoon Network Latin America - Cartoon Summer 2012' href="http://vimeo.com/34636419" class="video">Cartoon Network Latin America - Cartoon Summer 2012</a></p>
+										<h4>Watch</h4>
+										<p><a data-videoid="40966485" data-videodesc="" spots are airing now on CNLA in Brazil (where it is indeed summer!). Live Action Production, Design, Editing, and Color Correction by Team Artifact.' data-videotitle='BBDO - FDOC "Take On The Day" Web Banners' href="http://vimeo.com/40966485" class="video">BBDO - FDOC "Take On The Day" Web Banners</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>						
 							</div>
@@ -109,21 +109,21 @@
 									
 									
 									<div class="front">
-										<img src="images/Conan_HomeThumb_NewGrid.jpg" alt="" /> 
+										<img src="images/Window7.jpg" alt="" /> 
 									</div>
 									<div class="back">
-										<h4>Work</h4>
-										<p><a data-videoid="36418245" data-videodesc="Conan O'Brien's team at TBS turned to Artifact to premier his new Team Coco App, bringing some retro-futuristic fun to all the glorious benefits of the application's features for your tablet or smart phone. Turner's Sponsor Shop gave us yet another excuse to have way too much fun at work." data-videotitle='TBS - Team Coco Tablet App' href="http://vimeo.com/36418245" class="video">TBS - Team Coco Tablet App</a></p>
+										<h4>Watch</h4>
+										<p><a data-videoid="45989612" data-videodesc="" data-videotitle='BBDO - AT&T/Skyline' href="http://vimeo.com/45989612" class="video">BBDO - AT&T/Skyline</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>								
 							</div>
 							<div class="promo_panel panel_8">
 									<div class="front">
-										<img src="images/5_EcoCrew.jpg" alt="" /> 
+										<img src="images/Window8.jpg" alt="" /> 
 									</div>
 									<div class="back">
-										<h4>Work</h4>
-										<p><a data-videoid="27908116" data-videodesc="Our Eco Crew characters recently made their debut at the Discovery Science Center in Orange County, CA! Artifact's team of character designers and animators brought these "Virtual Clerks" to life with spunk and smarts to educate kids (of all ages) about making environmentally friendly choices." data-videotitle="Discovery Market Eco Crew" href="http://vimeo.com/27908116" class="video">Discovery Market<br/> Eco Crew</a></p>
+										<h4>Watch</h4>
+										<p><a data-videoid="40242166" data-videodesc="We were hired by our friends at GO! Productions to do some 3D Modeling, Texturing, and Lighting for the Kia Track'ster recently, which was featured at the 2012 Chicago Auto Show. We later pulled the spunky new concept car into our own fiesty little animated piece here to show it off." data-videotitle="Artifact Design - Track&rsquo;ster" href="http://vimeo.com/40242166" class="video">Artifact Design - Track'ster</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>						
 							</div>
