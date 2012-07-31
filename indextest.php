@@ -160,17 +160,17 @@
 					<div class="news_item clearfix" id="CNLA_win">
 						<div class="news_image"><span class="img_src" src="images/NewsThumb_Promax.jpg" alt="" border="0" ></span></div>
 						<div class="news_desc">
-							<h4>CNLA and Artifact win Gold for Summer Bumps Campaign  <span>June 23, 2012</span></h4>
+							<h4>CNLA and Artifact win Gold for Summer Bumps Campaign  <span>June 18, 2012</span></h4>
 							<p>Congratulations to Manu Muraro, Hernán Le Greca and Michele Slater at Cartoon Network Latin America...</p>
 							<p class="more"><a href="">More ...</a>			
 						</div>	
 						<div class="news_content">
 							<div class="article">
 								<h2>CNLA and Artifact win Gold for Summer Bumps Campaign</h2>
-								<p>Congratulations to Manu Muraro, Hernán Le Greca and Michele Slater at Cartoon Network Latin America for their "Summer Bumps" campaign winning a Gold at the 2012 PROMAX/BDA PROMOTION & MARKETING awards show for best Holiday/Special Event promotion. The campaign also won a Bronze award in the "General Entertainment: Bumper" category at the 2012 PROMAX/BDA DESIGN GLOBAL EXCELLENCE awards. The spots were Directed by Artifact's Pat McNeely who also oversaw Design, Animation, Edit and Color Correction at Artifact's Atlanta studio. Huge props to Stephen Larkworthy and his Box Hero Corps as well! Click here to check it out...</p>
-								<p><iframe data-src="http://player.vimeo.com/video/1918269?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+								<p>Congratulations to Manu Muraro, Hernán Le Greca and Michele Slater at Cartoon Network Latin America for their "Summer Bumps" campaign winning a Gold at the 2012 PROMAX/BDA PROMOTION & MARKETING awards show for best Holiday/Special Event promotion. The campaign also won a Bronze award in the "General Entertainment: Bumper" category at the 2012 PROMAX/BDA DESIGN GLOBAL EXCELLENCE awards. The spots were Directed by Artifact's Pat McNeely who also oversaw Design, Animation, Edit and Color Correction at Artifact's Atlanta studio. Huge props to Stephen Larkworthy and his Box Hero Corps as well! <a target="_blank" href="http://www.artifactdesign.com/screening_room.php?id=1977773&type=iframe&dl=1918269">Click here to check it out...</a></p>
+								<p><a target="_blank" href="http://www.artifactdesign.com/screening_room.php?id=1977773&type=iframe&dl=1918269"><img src="images/Home_CartoonSummer.jpg" alt="" /></a></p>
 							</div>
-						</div>				
+						</div>		
 					</div>
 					
 					<div class="news_item clearfix" id="elbow-room">
@@ -189,7 +189,23 @@
 							</div>
 						</div>						
 					</div>
-				
+					
+					<div class="news_item clearfix" id="wedding">
+						<div class="news_image"><span class="img_src" src="images/wedding_news.jpg" alt="" border="0" ></span></div>
+						<div class="news_desc">
+							<h4>Congrats Paco Vergachette <span>April 23, 2012</span></h4>
+							<p>Congrats to our designer Paco Vergachette and his beautiful bride Lucha Rodriguez</p>
+							<p class="more"><a href="">More ...</a>			
+						</div>	
+						<div class="news_content">
+							<div class="article">
+								<h2>Congrats Paco Vergachette</h2>
+								<p>Congrats to our designer Paco Vergachette and his beautiful bride Lucha Rodriguez who eloped to Vegas this weekend! Marriage rocks! All you need is love...</p>
+								<p><img src="images/wedding_story.jpg" alt="" /></p>
+							</div>
+						</div>				
+					</div>
+					
 					<div class="news_item clearfix" id="webby">
 						<div class="news_image"><span class="img_src" src="images/news_thumb_webby.jpg" alt="" border="0" ></span></div>
 						<div class="news_desc">
@@ -274,28 +290,7 @@
 								</div>
 							</div>						
 						</div>
-						
-				
-						<div class="news_item clearfix" id="casino-night">
-						<div class="news_image"><span class="img_src" src="images/news_4.jpg" alt="" border="0" ></span></div>
-						<div class="news_desc">
-							<h4>Casino Night <span>November 30, 2011</span></h4>
-							<p>Hold 'em! To celebrate designer/animator Chase Oliver moving to LA and joining our Culver City office, we turned our Atlanta studio into a Vegas style casino.</p>	
-							<p class="more"><a href="">More ...</a>		
-						</div>	
-						<div class="news_content">
-							<div class="article">
-								<h2>Casino Night</h2>
-								<p>Hold 'em! To celebrate designer/animator Chase Oliver moving to LA and joining our Culver City office, we turned our Atlanta studio into a Vegas style casino, put on our poker faces, and threw caution to the wind as if we were playing with Monopoly money...which we were. Congrats to Paco Vergachette for being the big winner of the night! </p>
-								<p><span class="img_src" src="images/News_Poker_Chase.jpg" alt=""></span></p>								
-							</div>
-						</div>						
-					</div>
-										
-					
-						
-						
-				
+							
 				</ul>
 			</div>
 		</div>
