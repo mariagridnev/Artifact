@@ -46,7 +46,7 @@
 								</div>
 								<div class="back">
 									<h4>Watch</h4>
-									<p><a data-videoid="42583181" data-videodesc="Before Instagram, there was Flashcube for Kodak Instamatic Cameras. A short experimental commercial using audio from a 1960s Kodak commercial. It's Flashcube! Designed/animated by Artifact Senior Designer Christina Maloney.
+									<p><a data-videoid="42583181" data-videodesc="Before Instagram, there was Flashcube for Kodak Instamatic Cameras. A short experimental piece using audio from a 1960s Kodak commercial. It's Flashcube! Designed/animated by Artifact Senior Designer Christina Maloney.
 (mono) Audio used from public domain at archive.org" data-videotitle="Artifact Design - Kodak Flashcube" href="http://vimeo.com/42583181" class="video">Artifact Design - Kodak Flashcube</a></p>
 									<span class="circle"><span class="arrow"></span></span>
 								</div>							
@@ -100,7 +100,7 @@
 									</div>
 									<div class="back">
 										<h4>Watch</h4>
-										<p><a data-videoid="40966485" data-videodesc="Collaborating with BBDO Atlanta, Artifact generated an 8-bit inspired concept, design and development of a full expandable web banner campaign for Florida Orange Guice." data-videotitle='BBDO - FDOC "Take On The Day" Web Banners' href="http://vimeo.com/40966485" class="video">BBDO - FDOC "Take On The Day" Web Banners</a></p>
+										<p><a data-videoid="40966485" data-videodesc="Collaborating with BBDO Atlanta, Artifact generated an 8-bit inspired concept, design and development of a full expandable web banner campaign for Florida Orange Juice." data-videotitle='BBDO - FDOC "Take On The Day" Web Banners' href="http://vimeo.com/40966485" class="video">BBDO - FDOC "Take On The Day" Web Banners</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>						
 							</div>
