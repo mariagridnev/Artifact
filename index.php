@@ -46,8 +46,8 @@
 								</div>
 								<div class="back">
 									<h4>Watch</h4>
-									<p><a data-videoid="42583181" data-videodesc="Before Instagram, there was Flashcube for Kodak Instamatic Cameras. A short experimental commercial using audio from a 1960s Kodak commercial. It's Flashcube! Designed/animated by Artifact Senior Designer Christina Maloney.
-(mono) Audio used from public domain at archive.org" data-videotitle="Kodak Flashcube" href="http://vimeo.com/42583181" class="video">Kodak Flashcube</a></p>
+									<p><a data-videoid="42583181" data-videodesc="Before Instagram, there was Flashcube for Kodak Instamatic Cameras. A short experimental piece using audio from a 1960s Kodak commercial. It's Flashcube! Designed/animated by Artifact Senior Designer Christina Maloney.
+(mono) Audio used from public domain at archive.org" data-videotitle="Artifact Design - Kodak Flashcube" href="http://vimeo.com/42583181" class="video">Artifact Design - Kodak Flashcube</a></p>
 									<span class="circle"><span class="arrow"></span></span>
 								</div>							
 							</div>
@@ -68,7 +68,7 @@
 									</div>
 									<div class="back">
 										<h4>Watch</h4>
-										<p><a data-videoid="39794640" data-videodesc="" data-videotitle='Cartoon Network - "Can We" Gumball Takeover' href="http://vimeo.com/39794640" class="video">Cartoon Network - "Can We" Gumball Takeover</a></p>
+										<p><a data-videoid="39794640" data-videodesc="Handing over the keys to the Cartoon Network took a little begging from one of the network's most popular characters, Gumball, in this spot featuring integration of live action footage and character animation from our team." data-videotitle='Cartoon Network Latin America - "Can We" Gumball Takeover' href="http://vimeo.com/39794640" class="video">Cartoon Network Latin America - "Can We" Gumball Takeover</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>						
 							</div>
@@ -80,7 +80,7 @@
 									</div>
 									<div class="back">
 										<h4>Watch</h4>
-										<p><a data-videoid="42557527" data-videodesc="" data-videotitle='FKQ - McDonald&rsquo;s "Busy Mom"' href="http://vimeo.com/42557527" class="video">FKQ - McDonald's "Busy Mom"</a></p>
+										<p><a data-videoid="42557527" data-videodesc='A "Busy Mom" springs into action in this installment of FKQ&rsquo;s Happy Meal campaign for McDonald&rsquo;s. Artifact provided all character animation, a live action shoot and motion graphics.' data-videotitle='FKQ - McDonald&rsquo;s "Busy Mom"' href="http://vimeo.com/42557527" class="video">FKQ - McDonald's "Busy Mom"</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
@@ -100,7 +100,7 @@
 									</div>
 									<div class="back">
 										<h4>Watch</h4>
-										<p><a data-videoid="40966485" data-videodesc="" spots are airing now on CNLA in Brazil (where it is indeed summer!). Live Action Production, Design, Editing, and Color Correction by Team Artifact.' data-videotitle='BBDO - FDOC "Take On The Day" Web Banners' href="http://vimeo.com/40966485" class="video">BBDO - FDOC "Take On The Day" Web Banners</a></p>
+										<p><a data-videoid="40966485" data-videodesc="Collaborating with BBDO Atlanta, Artifact generated an 8-bit inspired concept, design and development of a full expandable web banner campaign for Florida Orange Juice." data-videotitle='BBDO - FDOC "Take On The Day" Web Banners' href="http://vimeo.com/40966485" class="video">BBDO - FDOC "Take On The Day" Web Banners</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>						
 							</div>
@@ -113,7 +113,7 @@
 									</div>
 									<div class="back">
 										<h4>Watch</h4>
-										<p><a data-videoid="45989612" data-videodesc="" data-videotitle='BBDO - AT&T/Skyline' href="http://vimeo.com/45989612" class="video">BBDO - AT&T/Skyline</a></p>
+										<p><a data-videoid="45989612" data-videodesc="A typographic CG skyline made of city names promotes AT&amp;T's 4G coverage nationwide in our rich media banner campaign for BBDO Atlanta." data-videotitle='BBDO - AT&T Skyline' href="http://vimeo.com/45989612" class="video">BBDO - AT&T Skyline</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>								
 							</div>
@@ -123,7 +123,7 @@
 									</div>
 									<div class="back">
 										<h4>Watch</h4>
-										<p><a data-videoid="40242166" data-videodesc="We were hired by our friends at GO! Productions to do some 3D Modeling, Texturing, and Lighting for the Kia Track'ster recently, which was featured at the 2012 Chicago Auto Show. We later pulled the spunky new concept car into our own fiesty little animated piece here to show it off." data-videotitle="Artifact Design - Track&rsquo;ster" href="http://vimeo.com/40242166" class="video">Artifact Design - Track'ster</a></p>
+										<p><a data-videoid="40242166" data-videodesc="We were hired by our friends at GO! Productions to do some 3D Modeling, Texturing, and Lighting for the Kia Track'ster recently, which was featured at the 2012 Chicago Auto Show. We later pulled the spunky new concept car into our own fiesty little animated piece here to show it off." data-videotitle="Artifact Design - Kia Track&rsquo;ster" href="http://vimeo.com/40242166" class="video">Artifact Design - Kia Track'ster</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>						
 							</div>
