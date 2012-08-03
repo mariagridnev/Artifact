@@ -46,8 +46,8 @@
 								</div>
 								<div class="back">
 									<h4>Watch</h4>
-									<p><a data-videoid="42583181" data-videodesc="Before Instagram, there was Flashcube for Kodak Instamatic Cameras. A short experimental piece using audio from a 1960s Kodak commercial. It's Flashcube! Designed/animated by Artifact Senior Designer Christina Maloney.
-(mono) Audio used from public domain at archive.org" data-videotitle="Artifact Design - Kodak Flashcube" href="http://vimeo.com/42583181" class="video">Artifact Design - Kodak Flashcube</a></p>
+									<p><a data-videoid="42583181" data-videodesc="Before Instagram, there was Flashcube for Kodak Instamatic Cameras. A short experimental commercial using audio from a 1960s Kodak commercial. It's Flashcube! Designed/animated by Artifact Senior Designer Christina Maloney.
+(mono) Audio used from public domain at archive.org" data-videotitle="Kodak Flashcube" href="http://vimeo.com/42583181" class="video">Kodak Flashcube</a></p>
 									<span class="circle"><span class="arrow"></span></span>
 								</div>							
 							</div>
@@ -68,7 +68,7 @@
 									</div>
 									<div class="back">
 										<h4>Watch</h4>
-										<p><a data-videoid="39794640" data-videodesc="Handing over the keys to the Cartoon Network took a little begging from one of the network's most popular characters, Gumball, in this spot featuring integration of live action footage and character animation from our team." data-videotitle='Cartoon Network Latin America - "Can We" Gumball Takeover' href="http://vimeo.com/39794640" class="video">Cartoon Network Latin America - "Can We" Gumball Takeover</a></p>
+										<p><a data-videoid="39794640" data-videodesc="" data-videotitle='Cartoon Network - "Can We" Gumball Takeover' href="http://vimeo.com/39794640" class="video">Cartoon Network - "Can We" Gumball Takeover</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>						
 							</div>
@@ -80,7 +80,7 @@
 									</div>
 									<div class="back">
 										<h4>Watch</h4>
-										<p><a data-videoid="42557527" data-videodesc='A "Busy Mom" springs into action in this installment of FKQ&rsquo;s Happy Meal campaign for McDonald&rsquo;s. Artifact provided all character animation, a live action shoot and motion graphics.' data-videotitle='FKQ - McDonald&rsquo;s "Busy Mom"' href="http://vimeo.com/42557527" class="video">FKQ - McDonald's "Busy Mom"</a></p>
+										<p><a data-videoid="42557527" data-videodesc="" data-videotitle='FKQ - McDonald&rsquo;s "Busy Mom"' href="http://vimeo.com/42557527" class="video">FKQ - McDonald's "Busy Mom"</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>							
 							</div>
@@ -100,7 +100,7 @@
 									</div>
 									<div class="back">
 										<h4>Watch</h4>
-										<p><a data-videoid="40966485" data-videodesc="Collaborating with BBDO Atlanta, Artifact generated an 8-bit inspired concept, design and development of a full expandable web banner campaign for Florida Orange Juice." data-videotitle='BBDO - FDOC "Take On The Day" Web Banners' href="http://vimeo.com/40966485" class="video">BBDO - FDOC "Take On The Day" Web Banners</a></p>
+										<p><a data-videoid="40966485" data-videodesc="" spots are airing now on CNLA in Brazil (where it is indeed summer!). Live Action Production, Design, Editing, and Color Correction by Team Artifact.' data-videotitle='BBDO - FDOC "Take On The Day" Web Banners' href="http://vimeo.com/40966485" class="video">BBDO - FDOC "Take On The Day" Web Banners</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>						
 							</div>
@@ -113,7 +113,7 @@
 									</div>
 									<div class="back">
 										<h4>Watch</h4>
-										<p><a data-videoid="45989612" data-videodesc="A typographic CG skyline made of city names promotes AT&amp;T's 4G coverage nationwide in our rich media banner campaign for BBDO Atlanta." data-videotitle='BBDO - AT&T Skyline' href="http://vimeo.com/45989612" class="video">BBDO - AT&T Skyline</a></p>
+										<p><a data-videoid="45989612" data-videodesc="" data-videotitle='BBDO - AT&T/Skyline' href="http://vimeo.com/45989612" class="video">BBDO - AT&T/Skyline</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>								
 							</div>
@@ -123,7 +123,7 @@
 									</div>
 									<div class="back">
 										<h4>Watch</h4>
-										<p><a data-videoid="40242166" data-videodesc="We were hired by our friends at GO! Productions to do some 3D Modeling, Texturing, and Lighting for the Kia Track'ster recently, which was featured at the 2012 Chicago Auto Show. We later pulled the spunky new concept car into our own fiesty little animated piece here to show it off." data-videotitle="Artifact Design - Kia Track&rsquo;ster" href="http://vimeo.com/40242166" class="video">Artifact Design - Kia Track'ster</a></p>
+										<p><a data-videoid="40242166" data-videodesc="We were hired by our friends at GO! Productions to do some 3D Modeling, Texturing, and Lighting for the Kia Track'ster recently, which was featured at the 2012 Chicago Auto Show. We later pulled the spunky new concept car into our own fiesty little animated piece here to show it off." data-videotitle="Artifact Design - Track&rsquo;ster" href="http://vimeo.com/40242166" class="video">Artifact Design - Track'ster</a></p>
 										<span class="circle"><span class="arrow"></span></span>
 									</div>						
 							</div>
@@ -140,7 +140,39 @@
 		<div class="offset">
 			<div class="panels flexslider">
 				<ul class="slides">
-
+				
+					<div class="news_item clearfix" id="TEN_win">
+						<div class="news_image"><span class="img_src" src="images/News_1.png" alt="" border="0" ></span></div>
+						<div class="news_desc">
+							<h4>The TEN Sponsor Shop and Artifact Win <span>July 17, 2012</span></h4>
+							<p>Congrats to Turner's Sponsor Shop for their Team Coco Sync App Video winning "Best Online Video".</p>	
+							<p class="more"><a href="">More ...</a>		
+						</div>	
+						<div class="news_content">
+							<div class="article">
+								<h2>The TEN Sponsor Shop and Artifact Win</h2>
+								<p>Congrats to Turner's Sponsor Shop for their Team Coco Sync App Video winning "Best Online Video" at the 2012 Social TV Awards. The video, designed by Artifact, infuses Conan's signature sense of humor into the explanations for the App's cutting-edge features. Click here to take a look... </p>
+								<p><p><iframe data-src="http://player.vimeo.com/video/36418245?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p></p>
+							</div>
+						</div>						
+					</div>
+					
+					<div class="news_item clearfix" id="CNLA_win">
+						<div class="news_image"><span class="img_src" src="images/NewsThumb_Promax.jpg" alt="" border="0" ></span></div>
+						<div class="news_desc">
+							<h4>CNLA and Artifact win Gold for Summer Bumps Campaign  <span>June 18, 2012</span></h4>
+							<p>Congratulations to Manu Muraro, Hernán Le Greca and Michele Slater at Cartoon Network Latin America...</p>
+							<p class="more"><a href="">More ...</a>			
+						</div>	
+						<div class="news_content">
+							<div class="article">
+								<h2>CNLA and Artifact win Gold for Summer Bumps Campaign</h2>
+								<p>Congratulations to Manu Muraro, Hernán Le Greca and Michele Slater at Cartoon Network Latin America for their "Summer Bumps" campaign winning a Gold at the 2012 PROMAX/BDA PROMOTION & MARKETING awards show for best Holiday/Special Event promotion. The campaign also won a Bronze award in the "General Entertainment: Bumper" category at the 2012 PROMAX/BDA DESIGN GLOBAL EXCELLENCE awards. The spots were Directed by Artifact's Pat McNeely who also oversaw Design, Animation, Edit and Color Correction at Artifact's Atlanta studio. Huge props to Stephen Larkworthy and his Box Hero Corps as well! <a target="_blank" href="http://www.artifactdesign.com/screening_room.php?id=1977773&type=iframe&dl=1918269">Click here to check it out...</a></p>
+								<p><a target="_blank" href="http://www.artifactdesign.com/screening_room.php?id=1977773&type=iframe&dl=1918269"><img src="images/Home_CartoonSummer.jpg" alt="" /></a></p>
+							</div>
+						</div>		
+					</div>
+					
 					<div class="news_item clearfix" id="elbow-room">
 						<div class="news_image"><span class="img_src" src="images/NewsThumb_ElbowRm_1.jpg" alt="" border="0" ></span></div>
 						<div class="news_desc">
@@ -157,9 +189,7 @@
 							</div>
 						</div>						
 					</div>
-
-
-
+					
 					<div class="news_item clearfix" id="wedding">
 						<div class="news_image"><span class="img_src" src="images/wedding_news.jpg" alt="" border="0" ></span></div>
 						<div class="news_desc">
@@ -175,7 +205,7 @@
 							</div>
 						</div>				
 					</div>
-				
+					
 					<div class="news_item clearfix" id="webby">
 						<div class="news_image"><span class="img_src" src="images/news_thumb_webby.jpg" alt="" border="0" ></span></div>
 						<div class="news_desc">
@@ -260,58 +290,7 @@
 								</div>
 							</div>						
 						</div>
-						
-				
-						<div class="news_item clearfix" id="casino-night">
-						<div class="news_image"><span class="img_src" src="images/news_4.jpg" alt="" border="0" ></span></div>
-						<div class="news_desc">
-							<h4>Casino Night <span>November 30, 2011</span></h4>
-							<p>Hold 'em! To celebrate designer/animator Chase Oliver moving to LA and joining our Culver City office, we turned our Atlanta studio into a Vegas style casino.</p>	
-							<p class="more"><a href="">More ...</a>		
-						</div>	
-						<div class="news_content">
-							<div class="article">
-								<h2>Casino Night</h2>
-								<p>Hold 'em! To celebrate designer/animator Chase Oliver moving to LA and joining our Culver City office, we turned our Atlanta studio into a Vegas style casino, put on our poker faces, and threw caution to the wind as if we were playing with Monopoly money...which we were. Congrats to Paco Vergachette for being the big winner of the night! </p>
-								<p><span class="img_src" src="images/News_Poker_Chase.jpg" alt=""></span></p>								
-							</div>
-						</div>						
-					</div>
-						<div class="news_item clearfix" id="we-are-moving">
-						<div class="news_image"><span class="img_src" src="images/news_1.jpg" alt="" border="0" ></span></div>
-						<div class="news_desc">
-							<h4>We're Moving! <span>November 15, 2011</span></h4>
-							<p>We're saying goodbye to Abbot Kinney and all of it's gloriously eclectic people, shops, and restaurants and moving into our new bigger and better digs in Culver City as of December 1st.  </p>	
-							<p class="more"><a href="">More ...</a>
-						</div>	
-						<div class="news_content">
-							<div class="article">
-								<h2>We're Moving!</h2>
-								<p>We're saying goodbye to Abbot Kinney and all of it's gloriously eclectic people, shops, and restaurants and moving into our new bigger and better digs in Culver City as of December 1st. Very exciting! More pics and a housewarming party soon!</p>
-								<p><span class="img_src" src="images/News1_WeAreMoving.jpg" ></span></p>
-							</div>
-						</div>				
-					</div>
-						<div class="news_item clearfix" id="halloween-contest">
-							<div class="news_image"><span class="img_src" src="images/news_2.jpg" alt="" border="0" ></span></div>
-							<div class="news_desc">
-								<h4>Halloween Costume Contest <span>October 31, 2011</span></h4>
-								<p>Congrats to Jeff Wyner, one of our Designer/Animators in Atlanta, for winning the 2011 Artifact Halloween costume contest.</p>	
-								<p class="more"><a href="">More ...</a>	
-							</div>		
-							<div class="news_content">
-								<div class="article">
-									<h2>Halloween Costume Contest</h2>
-									<p>Congrats to Jeff Wyner, one of our Designer/Animators in Atlanta, for winning the 2011 Artifact Halloween costume contest. Check out Jeff's fabulous rendition of Humpty Hump here and remember...The Humpty Dance is your chance to do the hump.</p>
-									<p><span class="img_src" src="images/News2_Halloween.jpg" alt="" ></span></p>
-								</div>
-							</div>					
-						</div>
-						
-					
-						
-						
-				
+							
 				</ul>
 			</div>
 		</div>
