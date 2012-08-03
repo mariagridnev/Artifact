@@ -140,6 +140,23 @@
 		<div class="offset">
 			<div class="panels flexslider">
 				<ul class="slides">
+					
+					<div class="news_item clearfix" id="Faherty_takeover">
+						<div class="news_image"><span class="img_src" src="images/Feherty_Thumb.png" alt="" border="0" ></span></div>
+						<div class="news_desc">
+							<h4>Faherty Takeover <span>July 17, 2012</span></h4>
+							<p>Congrats to Turner's Sponsor Shop for their Team Coco Sync App Video winning "Best Online Video".</p>	
+							<p class="more"><a href="">More ...</a>		
+						</div>	
+						<div class="news_content">
+							<div class="article">
+								<h2>The TEN Sponsor Shop and Artifact Win</h2>
+								<p>Congrats to Turner's Sponsor Shop for their Team Coco Sync App Video winning "Best Online Video" at the 2012 Social TV Awards. The video, designed by Artifact, infuses Conan's signature sense of humor into the explanations for the App's cutting-edge features. Click here to take a look... </p>
+								<p><p><iframe data-src="http://player.vimeo.com/video/36418245?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p></p>
+							</div>
+						</div>						
+					</div>
+
 				
 					<div class="news_item clearfix" id="TEN_win">
 						<div class="news_image"><span class="img_src" src="images/News_1.png" alt="" border="0" ></span></div>
@@ -275,22 +292,7 @@
 								</div>
 							</div>						
 						</div>
-						<div class="news_item clearfix" id="update-from-road">
-							<div class="news_image"><span class="img_src" src="images/NewsThumb_FromTheRoad.jpg" alt="" border="0" ></span></div>
-							<div class="news_desc">
-								<h4>Update from the road <span>December 22, 2011</span></h4>
-								<p>We're on location this week, shooting in Fresno, CA, with our friends from The Glenn Group and Abe Froman Productions!</p>	
-								<p class="more"><a href="">More ...</a>		
-							</div>	
-							<div class="news_content">
-								<div class="article">
-									<h2>Update from the road</h2>
-									<p>We're on location this week, shooting in Fresno, CA, with our friends from The Glenn Group and Abe Froman Productions! Despite the five a.m. call times and chilly temps, we're having a blast capturing some really great footage with a Shotmaker camera car and crane. Can't wait to start our VFX work on this great fireworks-themed spot, which we'll finish mid-January. Stay tuned!</p>
-									<p><span class="img_src" src="images/News_FromTheRoad.jpg" alt=""></span></p>								
-								</div>
-							</div>						
-						</div>
-							
+													
 				</ul>
 			</div>
 		</div>
