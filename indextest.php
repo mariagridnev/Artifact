@@ -142,7 +142,7 @@
 				<ul class="slides">
 				
 					<div class="news_item clearfix" id="TEN_win">
-						<div class="news_image"><span class="img_src" src="" alt="" border="0" ></span></div>
+						<div class="news_image"><span class="img_src" src="images/News_1.png" alt="" border="0" ></span></div>
 						<div class="news_desc">
 							<h4>The TEN Sponsor Shop and Artifact Win <span>July 17, 2012</span></h4>
 							<p>Congrats to Turner's Sponsor Shop for their Team Coco Sync App Video winning "Best Online Video".</p>	
