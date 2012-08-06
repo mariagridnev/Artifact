@@ -144,17 +144,17 @@
 					<div class="news_item clearfix" id="Faherty_takeover">
 						<div class="news_image"><span class="img_src" src="images/Feherty_Thumb.png" alt="" border="0" ></span></div>
 						<div class="news_desc">
-							<h4>Faherty Takeover <span>July 17, 2012</span></h4>
-							<p>Congrats to Turner's Sponsor Shop for their Team Coco Sync App Video winning "Best Online Video".</p>	
+							<h4>Bridgestone Golf Shenanigans! <span>August 3, 2012</span></h4>
+							<p>Bridgestone Golf's nutty professor, David Feherty, would like to teach you a lesson... if only his environment would cooperate! Click here to check out our newest web takeover... </p>	
 							<p class="more"><a href="">More ...</a>		
 						</div>	
 						<div class="news_content">
 							<div class="article">
-								<h2>The TEN Sponsor Shop and Artifact Win</h2>
-								<p>Congrats to Turner's Sponsor Shop for their Team Coco Sync App Video winning "Best Online Video" at the 2012 Social TV Awards. The video, designed by Artifact, infuses Conan's signature sense of humor into the explanations for the App's cutting-edge features. Click here to take a look... </p>
-								<p><p><iframe data-src="http://player.vimeo.com/video/36418245?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p></p>
-							</div>
-						</div>						
+								<h2>Bridgestone Golf Shenanigans! </h2>
+								<p>A home page takeover for <a target="_blank" href="http://www.bridgestonegolf.com/">bridgestonegolf.com</a> through Nelson Creative, featuring a live action shoot of David Faherty and his trusty sidekick Lumpy. Design, Compositing and Flash Development by Team Artifact. </p>
+								<p><p><iframe data-src="http://player.vimeo.com/video/46637576?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p></p> 
+							</div> 
+						</div>					
 					</div>
 
 				
