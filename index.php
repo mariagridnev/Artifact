@@ -140,6 +140,23 @@
 		<div class="offset">
 			<div class="panels flexslider">
 				<ul class="slides">
+					
+					<div class="news_item clearfix" id="Faherty_takeover">
+						<div class="news_image"><span class="img_src" src="images/Feherty_Thumb.png" alt="" border="0" ></span></div>
+						<div class="news_desc">
+							<h4>Bridgestone Golf Shenanigans! <span>August 3, 2012</span></h4>
+							<p>Bridgestone Golf's nutty professor, David Feherty, would like to teach you a lesson... if only his environment would cooperate! Click here to check out our newest web takeover... </p>	
+							<p class="more"><a href="">More ...</a>		
+						</div>	
+						<div class="news_content">
+							<div class="article">
+								<h2>Bridgestone Golf Shenanigans! </h2>
+								<p>A home page takeover for <a target="_blank" href="http://www.bridgestonegolf.com/">bridgestonegolf.com</a> through Nelson Creative, featuring a live action shoot of David Faherty and his trusty sidekick Lumpy. Design, Compositing and Flash Development by Team Artifact. </p>
+								<p><p><iframe data-src="http://player.vimeo.com/video/46637576?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p></p> 
+							</div> 
+						</div>					
+					</div>
+
 				
 					<div class="news_item clearfix" id="TEN_win">
 						<div class="news_image"><span class="img_src" src="images/News_1.png" alt="" border="0" ></span></div>
@@ -275,22 +292,7 @@
 								</div>
 							</div>						
 						</div>
-						<div class="news_item clearfix" id="update-from-road">
-							<div class="news_image"><span class="img_src" src="images/NewsThumb_FromTheRoad.jpg" alt="" border="0" ></span></div>
-							<div class="news_desc">
-								<h4>Update from the road <span>December 22, 2011</span></h4>
-								<p>We're on location this week, shooting in Fresno, CA, with our friends from The Glenn Group and Abe Froman Productions!</p>	
-								<p class="more"><a href="">More ...</a>		
-							</div>	
-							<div class="news_content">
-								<div class="article">
-									<h2>Update from the road</h2>
-									<p>We're on location this week, shooting in Fresno, CA, with our friends from The Glenn Group and Abe Froman Productions! Despite the five a.m. call times and chilly temps, we're having a blast capturing some really great footage with a Shotmaker camera car and crane. Can't wait to start our VFX work on this great fireworks-themed spot, which we'll finish mid-January. Stay tuned!</p>
-									<p><span class="img_src" src="images/News_FromTheRoad.jpg" alt=""></span></p>								
-								</div>
-							</div>						
-						</div>
-							
+													
 				</ul>
 			</div>
 		</div>
